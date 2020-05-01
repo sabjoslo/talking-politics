@@ -1,0 +1,9 @@
+*.pyc
+*/*.pyc
+*/*/*.pyc
+.DS_Store
+inputs/coca/*/*
+inputs/coca/ngrams_conditions.html
+output/*.png
+scratch/*
+settings

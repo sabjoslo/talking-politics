@@ -1,0 +1,62 @@
+[settings]
+years = 2012, 2013, 2014, 2015, 2016, 2017
+percentile = .05
+election_cycles = 2012, 2016
+debate_types = general, primary
+#mode = debates
+mode = crec
+mpl_backend = TkAgg
+
+[PATHS]
+# Where this package lives
+PACKAGE_DIR = .
+
+# Directory where logs live
+#LOG_DIR =
+
+# Where the data for the ratings task lives
+RATINGS_TASK_PATH = ./experiments/conditional-variation/study-1
+
+# Where the data for the 2AFC task lives
+AFC_TASK_PATH = ./experiments/conditional-variation/study-2
+
+# Where the data for the synonyms task lives
+SYNONYMS_TASK_PATH = ./experiments/conditional-variation/study-3a
+
+# Where files used for the paper live
+#PAPER_PATH =
+
+[DEBATE_PATHS]
+# Directory where parsed debates live
+#RAW_DATA_DIR = 
+
+# Directory where dataframes containing raw text of parsed files lives
+#PROC_TXT_DIR = 
+
+# Directory where counts of ngrams live (output of count_words.py)
+#NGRAM_DIR = 
+
+# Directory where computed metrics live
+#METRICS_DIR = 
+
+[CREC_PATHS]
+# Directory where json files downloaded using the congressionalrecord
+# downloader live
+#RAW_DATA_DIR = 
+
+# Directory where raw text of parsed files lives
+#PROC_TXT_DIR =
+
+# Directory where spacy token objects live (output of json_to_spacy_tokens.py)
+#SPACY_TOKENS_DIR = 
+
+# Directory where counts of ngrams live (output of count_words.py)
+#NGRAM_DIR = 
+
+# Directory where computed metrics live
+#METRICS_DIR = 
+
+# Headers for HTTP requests
+[headers]
+#User-Agent = 
+#From = 
