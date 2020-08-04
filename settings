@@ -23,6 +23,9 @@ AFC_TASK_PATH = ./experiments/conditional-variation/study-2
 # Where the data for the synonyms task lives
 SYNONYMS_TASK_PATH = ./experiments/conditional-variation/study-3a
 
+# Where the data for the plurals task lives
+PLURALS_TASK_PATH = ./experiments/valence/study-3
+
 # Where files used for the paper live
 #PAPER_PATH =
 

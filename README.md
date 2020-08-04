@@ -2,7 +2,11 @@ A library to derive information-theoretic metrics and perform other textual anal
 
 Includes code and data used in preparation of
 
-Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). Can we detect conditioned variation in political speech?  Two kinds of discussion and types of conversation.
+Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). Can we detect conditioned variation in political speech? Two kinds of discussion and types of conversation. [https://psyarxiv.com/cg7bf/](https://psyarxiv.com/cg7bf/).
+
+and
+
+Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). One fee, two fees; red fee, blue fee: People use the valence of others' speech in social relational judgments. \emph{In submission.}
 
 If you have questions, or notice that anything needed to replicate the analysis is missing, please contact Sabina Sloman at ssloman@andrew.cmu.edu.
 
@@ -19,13 +23,13 @@ User-specific configuration settings can be specified in the `settings` file.
 
 ## Presidential debates
 
-1. `python -c "from pyspan import debates; debates.get_debates()"` downloads transcripts of the presidential debates from [The American Presidency Project](http://www.presidency.ucsb.edu/debates.php) and convert them to JSON format.
+1. `python -c "from pyspan import debates; debates.get_debates()"` downloads transcripts of the presidential debates from [The American Presidency Project](http://www.presidency.ucsb.edu/debates.php) and converts them to JSON format.
 2. `python -c "from pyspan import debates; debates.get_participants(); debates.get_moderators()"` creates hand-coded lists of the participants and moderators of the debates. This information helps the text parser separate the speaker from what they say.
 3. `python -c "from pyspan import debates; debates.get_text_from_debates()"` converts the JSON-formatted data to plain text files.
 
 ## Excluding words
 
-`python -c "from pyspan import purger; the_purger = purger.Purger(); the_purger.stopwords"` will display the words excluded from the counts (below). The exclusion criteria for words are detailed in "Two kinds of discussion and types of conversation".
+`python -c "from pyspan import purger; the_purger = purger.Purger(); the_purger.stopwords"` will display the words excluded from the counts (below). The exclusion criteria for words are detailed in "Two kinds of discussion and types of conversation."
 
 ### Classifying words as procedural
 

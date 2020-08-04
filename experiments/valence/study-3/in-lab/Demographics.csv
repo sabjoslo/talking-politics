@@ -1,0 +1,215 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,DistributionChannel,UserLanguage,age,gender,gender_5_TEXT,Q13,Q4,Q4_4_TEXT,Q5,Q9,Q12_1,ID
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Distribution Channel,User Language,What is your age (please only use numbers of years)?,What gender do you identify with? - Selected Choice,What gender do you identify with? - Other (please specify) - Text,How strongly do you identify with your gender?,What is your party affiliation? - Selected Choice,What is your party affiliation? - Other party (please specify) - Text,How strongly do you identify with your party?,What is the highest level of education you have received?,What percent of your close friends and family share your political affiliation?,ID
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID1_TEXT""}","{""ImportId"":""QID2""}","{""ImportId"":""QID2_5_TEXT""}","{""ImportId"":""QID14""}","{""ImportId"":""QID4""}","{""ImportId"":""QID4_4_TEXT""}","{""ImportId"":""QID5""}","{""ImportId"":""QID9""}","{""ImportId"":""QID12_1""}","{""ImportId"":""ID""}"
+10/19/18 11:13,10/19/18 11:14,IP Address,100,50,TRUE,10/19/18 11:14,anonymous,EN,24,Male,,7 (very much),Other party (please specify),no affiliation,7 (very much),Masters degree,3,105
+10/19/18 11:13,10/19/18 11:14,IP Address,100,49,TRUE,10/19/18 11:14,anonymous,EN,21,Female,,7 (very much),Democrat,,2,Bachelors degree,64,106
+10/19/18 11:13,10/19/18 11:15,IP Address,100,70,TRUE,10/19/18 11:15,anonymous,EN,22,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,0,103
+10/19/18 11:14,10/19/18 11:15,IP Address,100,89,TRUE,10/19/18 11:15,anonymous,EN,47,Male,,7 (very much),Independent,,7 (very much),Some college-No degree,93,100
+10/19/18 11:14,10/19/18 11:18,IP Address,100,210,TRUE,10/19/18 11:18,anonymous,EN,57,Male,,7 (very much),Democrat,,4,High school graduate,16,107
+10/19/18 12:19,10/19/18 12:20,IP Address,100,35,TRUE,10/19/18 12:20,anonymous,EN,22,Female,,7 (very much),Democrat,,5,Bachelors degree,100,111
+10/19/18 12:19,10/19/18 12:20,IP Address,100,32,TRUE,10/19/18 12:20,anonymous,EN,24,Female,,6,Democrat,,2,Bachelors degree,72,108
+10/19/18 12:19,10/19/18 12:20,IP Address,100,37,TRUE,10/19/18 12:20,anonymous,EN,24,Female,,6,Democrat,,5,Masters degree,51,112
+10/19/18 12:19,10/19/18 12:20,IP Address,100,57,TRUE,10/19/18 12:20,anonymous,EN,55,Female,,3,Independent,,5,Masters degree,77,110
+10/19/18 12:19,10/19/18 12:20,IP Address,100,59,TRUE,10/19/18 12:20,anonymous,EN,23,Male,,7 (very much),Other party (please specify),Liberitarian,5,Bachelors degree,50,109
+10/19/18 12:19,10/19/18 12:20,IP Address,100,67,TRUE,10/19/18 12:20,anonymous,EN,30,Female,,6,Independent,,3,Masters degree,11,113
+10/19/18 13:17,10/19/18 13:17,IP Address,100,32,TRUE,10/19/18 13:17,anonymous,EN,20,Male,,7 (very much),Democrat,,4,Some college-No degree,70,114
+10/19/18 13:17,10/19/18 13:17,IP Address,100,42,TRUE,10/19/18 13:17,anonymous,EN,30,Male,,7 (very much),Independent,,7 (very much),Masters degree,30,116
+10/19/18 13:17,10/19/18 13:17,IP Address,100,43,TRUE,10/19/18 13:17,anonymous,EN,45,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,71,115
+10/19/18 13:17,10/19/18 13:17,IP Address,100,44,TRUE,10/19/18 13:17,anonymous,EN,22,Female,,7 (very much),Democrat,,1 (very little),Masters degree,91,118
+10/19/18 13:17,10/19/18 13:18,IP Address,100,52,TRUE,10/19/18 13:18,anonymous,EN,43,Male,,7 (very much),Independent,,7 (very much),Associates degree,40,119
+10/19/18 13:17,10/19/18 13:18,IP Address,100,98,TRUE,10/19/18 13:18,anonymous,EN,23,Female,,7 (very much),Democrat,,3,Bachelors degree,40,117
+10/19/18 13:17,10/19/18 13:19,IP Address,100,120,TRUE,10/19/18 13:19,anonymous,EN,31,Male,,7 (very much),Independent,,6,Associates degree,60,120
+10/19/18 14:09,10/19/18 14:10,IP Address,100,48,TRUE,10/19/18 14:10,anonymous,EN,18,Male,,7 (very much),Independent,,4,High school graduate,50,121
+10/19/18 14:10,10/19/18 14:11,IP Address,100,40,TRUE,10/19/18 14:11,anonymous,EN,28,Male,,7 (very much),Independent,,2,Masters degree,60,122
+10/19/18 14:11,10/19/18 14:11,Spam,100,26,TRUE,10/19/18 14:11,anonymous,EN,18,Male,,7 (very much),Independent,,4,High school graduate,50,121
+10/19/18 15:02,10/19/18 15:03,IP Address,100,42,TRUE,10/19/18 15:03,anonymous,EN,21,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,0,123
+10/26/18 11:07,10/26/18 11:08,IP Address,100,32,TRUE,10/26/18 11:08,anonymous,EN,18,Female,,7 (very much),Independent,,7 (very much),Some college-No degree,50,125
+10/26/18 11:07,10/26/18 11:08,IP Address,100,33,TRUE,10/26/18 11:08,anonymous,EN,18,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,95,128
+10/26/18 11:07,10/26/18 11:08,IP Address,100,40,TRUE,10/26/18 11:08,anonymous,EN,31,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,1,129
+10/26/18 11:07,10/26/18 11:08,IP Address,100,43,TRUE,10/26/18 11:08,anonymous,EN,22,Female,,7 (very much),Democrat,,5,Some college-No degree,80,130
+10/26/18 11:07,10/26/18 11:08,IP Address,100,46,TRUE,10/26/18 11:08,anonymous,EN,22,Male,,7 (very much),Independent,,4,Bachelors degree,70,131
+10/26/18 11:07,10/26/18 11:08,IP Address,100,53,TRUE,10/26/18 11:08,anonymous,EN,21,Male,,7 (very much),Democrat,,5,Bachelors degree,80,126
+10/26/18 11:07,10/26/18 11:08,IP Address,100,77,TRUE,10/26/18 11:08,anonymous,EN,21,Male,,7 (very much),Democrat,,4,Bachelors degree,9,127
+10/26/18 11:08,10/26/18 11:09,IP Address,100,57,TRUE,10/26/18 11:09,anonymous,EN,19,Female,,7 (very much),Democrat,,4,Some college-No degree,25,132
+10/26/18 12:06,10/26/18 12:06,IP Address,100,33,TRUE,10/26/18 12:06,anonymous,EN,21,Female,,7 (very much),Democrat,,6,Some college-No degree,100,139
+10/26/18 12:06,10/26/18 12:06,IP Address,100,32,TRUE,10/26/18 12:06,anonymous,EN,20,Female,,7 (very much),Democrat,,6,Doctorate,74,137
+10/26/18 12:06,10/26/18 12:06,IP Address,100,37,TRUE,10/26/18 12:06,anonymous,EN,19,Female,,7 (very much),Independent,,4,Some college-No degree,50,136
+10/26/18 12:06,10/26/18 12:07,IP Address,100,39,TRUE,10/26/18 12:07,anonymous,EN,19,Male,,7 (very much),Independent,,1 (very little),Some college-No degree,35,134
+10/26/18 12:06,10/26/18 12:07,IP Address,100,41,TRUE,10/26/18 12:07,anonymous,EN,20,Female,,7 (very much),Democrat,,6,Some college-No degree,70,133
+10/26/18 12:06,10/26/18 12:07,IP Address,100,36,TRUE,10/26/18 12:07,anonymous,EN,19,Female,,6,Democrat,,5,Some college-No degree,76,135
+10/26/18 12:06,10/26/18 12:07,IP Address,100,78,TRUE,10/26/18 12:07,anonymous,EN,44,Male,,4,Other party (please specify),no party affiliation,1 (very little),Some college-No degree,87,138
+10/26/18 12:18,10/26/18 12:18,IP Address,100,16,TRUE,10/26/18 12:18,anonymous,EN,21,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,99,139
+10/26/18 13:09,10/26/18 13:10,IP Address,100,34,TRUE,10/26/18 13:10,anonymous,EN,19,Female,,7 (very much),Democrat,,3,Some college-No degree,75,140
+10/26/18 13:09,10/26/18 13:10,IP Address,100,41,TRUE,10/26/18 13:10,anonymous,EN,18,Male,,7 (very much),Democrat,,4,High school graduate,95,147
+10/26/18 13:09,10/26/18 13:10,IP Address,100,42,TRUE,10/26/18 13:10,anonymous,EN,19,Female,,7 (very much),Republican,,4,Some college-No degree,8,146
+10/26/18 13:09,10/26/18 13:10,IP Address,100,42,TRUE,10/26/18 13:10,anonymous,EN,32,Male,,7 (very much),Independent,,7 (very much),Masters degree,70,142
+10/26/18 13:09,10/26/18 13:10,IP Address,100,39,TRUE,10/26/18 13:10,anonymous,EN,26,Male,,7 (very much),Democrat,,1 (very little),Bachelors degree,80,141
+10/26/18 13:09,10/26/18 13:10,IP Address,100,56,TRUE,10/26/18 13:10,anonymous,EN,19,Male,,5,Democrat,,5,Some college-No degree,80,145
+10/26/18 13:09,10/26/18 13:10,IP Address,100,55,TRUE,10/26/18 13:10,anonymous,EN,22,Female,,6,Other party (please specify),Don't care about politics,1 (very little),Bachelors degree,5,143
+10/26/18 13:09,10/26/18 13:11,IP Address,100,89,TRUE,10/26/18 13:11,anonymous,EN,22,Male,,7 (very much),Democrat,,2,Bachelors degree,24,144
+10/26/18 14:09,10/26/18 14:09,IP Address,100,26,TRUE,10/26/18 14:09,anonymous,EN,26,Female,,7 (very much),Democrat,,6,Masters degree,93,148
+10/26/18 14:09,10/26/18 14:09,IP Address,100,42,TRUE,10/26/18 14:09,anonymous,EN,20,Female,,7 (very much),Independent,,6,Some college-No degree,60,149
+10/26/18 14:09,10/26/18 14:09,IP Address,100,43,TRUE,10/26/18 14:09,anonymous,EN,22,Female,,7 (very much),Democrat,,3,Bachelors degree,51,151
+10/26/18 14:09,10/26/18 14:09,IP Address,100,46,TRUE,10/26/18 14:09,anonymous,EN,28,Female,,7 (very much),Independent,,1 (very little),Doctorate,40,152
+10/26/18 14:09,10/26/18 14:10,IP Address,100,59,TRUE,10/26/18 14:10,anonymous,EN,20,Male,,7 (very much),Republican,,2,Some college-No degree,35,153
+10/26/18 14:10,10/26/18 14:11,IP Address,100,77,TRUE,10/26/18 14:11,anonymous,EN,18,Male,,5,Other party (please specify),Green,5,Some college-No degree,50,150
+10/26/18 15:08,10/26/18 15:08,IP Address,100,33,TRUE,10/26/18 15:08,anonymous,EN,20,Female,,6,Democrat,,6,Some college-No degree,95,157
+10/26/18 15:08,10/26/18 15:08,IP Address,100,31,TRUE,10/26/18 15:08,anonymous,EN,21,Male,,7 (very much),Democrat,,3,Some college-No degree,95,161
+10/26/18 15:08,10/26/18 15:08,IP Address,100,48,TRUE,10/26/18 15:08,anonymous,EN,19,Female,,7 (very much),Other party (please specify),No party affiliation,1 (very little),Bachelors degree,81,156
+10/26/18 15:08,10/26/18 15:09,IP Address,100,38,TRUE,10/26/18 15:09,anonymous,EN,19,Male,,7 (very much),Democrat,,1 (very little),Some college-No degree,75,155
+10/26/18 15:08,10/26/18 15:09,IP Address,100,56,TRUE,10/26/18 15:09,anonymous,EN,44,Female,,7 (very much),Republican,,6,Masters degree,81,162
+10/26/18 15:08,10/26/18 15:09,IP Address,100,41,TRUE,10/26/18 15:09,anonymous,EN,21,Female,,7 (very much),Independent,,7 (very much),High school graduate,50,160
+10/26/18 15:08,10/26/18 15:09,IP Address,100,59,TRUE,10/26/18 15:09,anonymous,EN,20,Female,,7 (very much),Independent,,3,High school graduate,61,154
+10/26/18 15:09,10/26/18 15:09,IP Address,100,29,TRUE,10/26/18 15:09,anonymous,EN,20,Female,,7 (very much),Democrat,,4,Some college-No degree,94,159
+10/26/18 15:08,10/26/18 15:09,IP Address,100,81,TRUE,10/26/18 15:09,anonymous,EN,73,Female,,7 (very much),Republican,,7 (very much),Some college-No degree,88,158
+10/26/18 15:09,10/26/18 15:09,Spam,100,15,TRUE,10/26/18 15:10,anonymous,EN,21,Male,,7 (very much),Democrat,,3,Some college-No degree,95,161
+10/30/18 10:04,10/30/18 10:04,IP Address,100,36,TRUE,10/30/18 10:04,anonymous,EN,21,Male,,6,Democrat,,2,Some college-No degree,70,164
+10/30/18 11:00,10/30/18 11:01,IP Address,100,44,TRUE,10/30/18 11:01,anonymous,EN,28,Female,,4,Democrat,,6,Masters degree,80,165
+10/30/18 11:00,10/30/18 11:01,IP Address,100,57,TRUE,10/30/18 11:01,anonymous,EN,24,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,60,166
+11/2/18 11:05,11/2/18 11:06,IP Address,100,41,TRUE,11/2/18 11:06,anonymous,EN,21,Male,,7 (very much),Democrat,,4,Some college-No degree,65,169
+11/2/18 11:05,11/2/18 11:06,IP Address,100,54,TRUE,11/2/18 11:06,anonymous,EN,20,Male,,7 (very much),Democrat,,4,Some college-No degree,65,171
+11/2/18 11:06,11/2/18 11:07,IP Address,100,60,TRUE,11/2/18 11:07,anonymous,EN,58,Female,,7 (very much),Republican,,4,Some college-No degree,31,167
+11/2/18 11:06,11/2/18 11:07,IP Address,100,85,TRUE,11/2/18 11:07,anonymous,EN,24,Female,,7 (very much),Democrat,,5,Masters degree,80,170
+11/2/18 11:06,11/2/18 11:08,IP Address,100,114,TRUE,11/2/18 11:08,anonymous,EN,61,Female,,7 (very much),Democrat,,6,Doctorate,80,168
+11/2/18 11:12,11/2/18 11:13,IP Address,100,60,TRUE,11/2/18 11:13,anonymous,EN,61,Female,,7 (very much),Democrat,,7 (very much),Doctorate,82,168
+11/2/18 12:07,11/2/18 12:08,IP Address,100,24,TRUE,11/2/18 12:08,anonymous,EN,19,Female,,7 (very much),Independent,,4,Bachelors degree,51,174
+11/2/18 12:08,11/2/18 12:08,IP Address,100,32,TRUE,11/2/18 12:08,anonymous,EN,18,Female,,6,Democrat,,7 (very much),Some college-No degree,81,175
+11/2/18 12:08,11/2/18 12:09,IP Address,100,61,TRUE,11/2/18 12:09,anonymous,EN,29,Both,,4,Democrat,,6,Masters degree,85,172
+11/2/18 12:08,11/2/18 12:09,IP Address,100,69,TRUE,11/2/18 12:09,anonymous,EN,19,Female,,6,Democrat,,2,High school graduate,81,176
+11/2/18 12:08,11/2/18 12:09,IP Address,100,71,TRUE,11/2/18 12:09,anonymous,EN,35,Male,,7 (very much),Independent,,3,Doctorate,50,177
+11/2/18 12:08,11/2/18 12:10,IP Address,100,88,TRUE,11/2/18 12:10,anonymous,EN,24,Female,,7 (very much),Other party (please specify),No affiliation,1 (very little),Masters degree,1,173
+11/2/18 13:06,11/2/18 13:06,IP Address,100,36,TRUE,11/2/18 13:06,anonymous,EN,22,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,90,179
+11/2/18 13:05,11/2/18 13:06,IP Address,100,55,TRUE,11/2/18 13:06,anonymous,EN,18,Female,,7 (very much),Democrat,,5,Some college-No degree,100,178
+11/2/18 13:05,11/2/18 13:06,IP Address,100,74,TRUE,11/2/18 13:06,anonymous,EN,19,Female,,7 (very much),Democrat,,6,Some college-No degree,65,180
+11/2/18 13:07,11/2/18 13:07,IP Address,100,44,TRUE,11/2/18 13:07,anonymous,EN,22,Female,,7 (very much),Independent,,4,Bachelors degree,61,181
+11/2/18 14:20,11/2/18 14:20,IP Address,100,41,TRUE,11/2/18 14:20,anonymous,EN,18,Female,,7 (very much),Democrat,,3,High school graduate,90,184
+11/2/18 14:20,11/2/18 14:21,IP Address,100,52,TRUE,11/2/18 14:21,anonymous,EN,20,Female,,7 (very much),Independent,,5,Some college-No degree,50,186
+11/2/18 14:20,11/2/18 14:21,IP Address,100,54,TRUE,11/2/18 14:21,anonymous,EN,27,Male,,5,Democrat,,2,Associates degree,69,182
+11/2/18 14:20,11/2/18 14:21,IP Address,100,56,TRUE,11/2/18 14:21,anonymous,EN,27,Female,,6,Independent,,5,Some college-No degree,0,183
+11/2/18 14:20,11/2/18 14:21,IP Address,100,54,TRUE,11/2/18 14:21,anonymous,EN,27,Male,,7 (very much),Republican,,1 (very little),Masters degree,52,185
+11/2/18 15:33,11/2/18 15:33,IP Address,100,31,TRUE,11/2/18 15:33,anonymous,EN,21,Female,,7 (very much),Democrat,,3,Bachelors degree,71,189
+11/2/18 15:33,11/2/18 15:33,IP Address,100,41,TRUE,11/2/18 15:34,anonymous,EN,28,Female,,6,Democrat,,4,Masters degree,50,187
+11/2/18 15:33,11/2/18 15:34,IP Address,100,50,TRUE,11/2/18 15:34,anonymous,EN,28,Female,,7 (very much),Democrat,,5,Masters degree,83,188
+11/6/18 9:02,11/6/18 9:02,IP Address,100,43,TRUE,11/6/18 9:03,anonymous,EN,22,Female,,7 (very much),Democrat,,4,Bachelors degree,40,190
+11/6/18 9:04,11/6/18 9:04,IP Address,100,30,TRUE,11/6/18 9:04,anonymous,EN,27,Female,,6,Democrat,,4,Bachelors degree,72,191
+11/6/18 9:04,11/6/18 9:05,IP Address,100,43,TRUE,11/6/18 9:05,anonymous,EN,24,Female,,7 (very much),Other party (please specify),Not involved in politics,5,Masters degree,49,192
+11/6/18 9:05,11/6/18 9:06,IP Address,100,25,TRUE,11/6/18 9:06,anonymous,EN,24,Female,,7 (very much),Independent,,5,Masters degree,73,192
+11/6/18 10:05,11/6/18 10:06,IP Address,100,62,TRUE,11/6/18 10:06,anonymous,EN,20,Female,,7 (very much),Independent,,1 (very little),High school graduate,21,193
+11/6/18 10:05,11/6/18 10:06,IP Address,100,57,TRUE,11/6/18 10:06,anonymous,EN,19,Male,,7 (very much),Republican,,3,High school graduate,18,198
+11/6/18 10:05,11/6/18 10:06,IP Address,100,59,TRUE,11/6/18 10:06,anonymous,EN,43,Female,,7 (very much),Democrat,,5,Some college-No degree,61,194
+11/6/18 10:05,11/6/18 10:06,IP Address,100,52,TRUE,11/6/18 10:06,anonymous,EN,56,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,81,196
+11/6/18 10:05,11/6/18 10:06,IP Address,100,76,TRUE,11/6/18 10:06,anonymous,EN,24,Male,,7 (very much),Democrat,,7 (very much),Masters degree,100,195
+11/6/18 10:06,11/6/18 10:08,IP Address,100,111,TRUE,11/6/18 10:08,anonymous,EN,53,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,100,197
+11/6/18 11:04,11/6/18 11:04,IP Address,100,42,TRUE,11/6/18 11:04,anonymous,EN,18,Male,,6,Democrat,,6,Some college-No degree,84,200
+11/6/18 11:04,11/6/18 11:05,IP Address,100,54,TRUE,11/6/18 11:05,anonymous,EN,22,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,10,199
+11/6/18 11:04,11/6/18 11:06,IP Address,100,109,TRUE,11/6/18 11:06,anonymous,EN,22,Male,,7 (very much),Republican,,5,Bachelors degree,20,3
+11/8/18 9:42,11/8/18 9:43,IP Address,100,33,TRUE,11/8/18 9:43,anonymous,EN,22,Male,,7 (very much),Democrat,,4,Bachelors degree,91,204
+11/8/18 9:42,11/8/18 9:43,IP Address,100,42,TRUE,11/8/18 9:43,anonymous,EN,19,Female,,7 (very much),Democrat,,6,Some college-No degree,86,203
+11/8/18 9:42,11/8/18 9:43,IP Address,100,42,TRUE,11/8/18 9:43,anonymous,EN,19,Male,,5,Democrat,,4,Some college-No degree,80,202
+11/8/18 10:37,11/8/18 10:37,IP Address,100,36,TRUE,11/8/18 10:37,anonymous,EN,18,Male,,7 (very much),Independent,,4,High school graduate,83,207
+11/8/18 10:37,11/8/18 10:37,IP Address,100,40,TRUE,11/8/18 10:37,anonymous,EN,20,Female,,7 (very much),Democrat,,6,Some college-No degree,71,206
+11/8/18 10:37,11/8/18 10:38,IP Address,100,50,TRUE,11/8/18 10:38,anonymous,EN,29,Female,,6,Independent,,4,Bachelors degree,50,208
+11/8/18 10:37,11/8/18 10:38,IP Address,100,71,TRUE,11/8/18 10:38,anonymous,EN,18,Female,,7 (very much),Independent,,2,High school graduate,55,205
+11/8/18 10:37,11/8/18 10:38,IP Address,100,60,TRUE,11/8/18 10:38,anonymous,EN,22,Male,,5,Independent,,3,Bachelors degree,2,209
+11/9/18 11:11,11/9/18 11:11,IP Address,100,45,TRUE,11/9/18 11:11,anonymous,EN,27,Female,,7 (very much),Democrat,,5,Bachelors degree,71,210
+11/9/18 11:11,11/9/18 11:12,IP Address,100,39,TRUE,11/9/18 11:12,anonymous,EN,26,Female,,7 (very much),Democrat,,6,Bachelors degree,90,213
+11/9/18 11:11,11/9/18 11:12,IP Address,100,58,TRUE,11/9/18 11:12,anonymous,EN,23,Female,,5,Independent,,4,Masters degree,22,215
+11/9/18 11:11,11/9/18 11:12,IP Address,100,54,TRUE,11/9/18 11:12,anonymous,EN,25,Female,,5,Democrat,,5,Bachelors degree,59,211
+11/9/18 11:11,11/9/18 11:12,IP Address,100,51,TRUE,11/9/18 11:12,anonymous,EN,22,Male,,7 (very much),Democrat,,1 (very little),Bachelors degree,51,212
+11/9/18 11:11,11/9/18 11:12,IP Address,100,50,TRUE,11/9/18 11:12,anonymous,EN,24,Female,,3,Independent,,2,Bachelors degree,29,214
+11/9/18 12:23,11/9/18 12:23,IP Address,100,29,TRUE,11/9/18 12:23,anonymous,EN,20,Female,,7 (very much),Democrat,,4,Some college-No degree,71,218
+11/9/18 12:23,11/9/18 12:24,IP Address,100,38,TRUE,11/9/18 12:24,anonymous,EN,19,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,90,220
+11/9/18 12:17,11/9/18 12:24,IP Address,100,397,TRUE,11/9/18 12:24,anonymous,EN,22,Female,,7 (very much),Independent,,7 (very much),Masters degree,50,4
+11/9/18 12:23,11/9/18 12:24,IP Address,100,52,TRUE,11/9/18 12:24,anonymous,EN,21,Female,,7 (very much),Democrat,,6,Some college-No degree,85,216
+11/9/18 12:24,11/9/18 12:25,Spam,100,34,TRUE,11/9/18 12:25,anonymous,EN,19,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,90,220
+11/9/18 12:26,11/9/18 12:26,IP Address,100,43,TRUE,11/9/18 12:26,anonymous,EN,78,Male,,7 (very much),Democrat,,6,Doctorate,69,217
+11/9/18 13:35,11/9/18 13:36,IP Address,100,73,TRUE,11/9/18 13:36,anonymous,EN,21,Male,,7 (very much),Independent,,5,Some college-No degree,33,224
+11/9/18 13:35,11/9/18 13:36,IP Address,100,60,TRUE,11/9/18 13:36,anonymous,EN,25,Male,,7 (very much),Independent,,1 (very little),Bachelors degree,13,222
+11/9/18 13:36,11/9/18 13:37,IP Address,100,61,TRUE,11/9/18 13:37,anonymous,EN,22,Male,,4,Independent,,7 (very much),Bachelors degree,50,223
+11/9/18 13:36,11/9/18 13:37,IP Address,100,87,TRUE,11/9/18 13:37,anonymous,EN,63,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,70,221
+11/9/18 14:52,11/9/18 14:53,IP Address,100,36,TRUE,11/9/18 14:53,anonymous,EN,26,Female,,7 (very much),Democrat,,7 (very much),Masters degree,60,230
+11/9/18 14:52,11/9/18 14:53,IP Address,100,38,TRUE,11/9/18 14:53,anonymous,EN,22,Male,,7 (very much),Democrat,,5,Some college-No degree,60,231
+11/9/18 14:52,11/9/18 14:53,IP Address,100,45,TRUE,11/9/18 14:53,anonymous,EN,21,Female,,6,Democrat,,4,Some college-No degree,80,227
+11/9/18 14:52,11/9/18 14:53,IP Address,100,54,TRUE,11/9/18 14:53,anonymous,EN,20,Female,,7 (very much),Democrat,,5,Some college-No degree,90,226
+11/9/18 14:52,11/9/18 14:53,IP Address,100,66,TRUE,11/9/18 14:53,anonymous,EN,21,Female,,7 (very much),Other party (please specify),non-US citizen,1 (very little),Bachelors degree,50,229
+11/9/18 14:52,11/9/18 14:54,IP Address,100,79,TRUE,11/9/18 14:54,anonymous,EN,24,Female,,7 (very much),Democrat,,5,Masters degree,81,228
+11/9/18 14:53,11/9/18 14:54,IP Address,100,42,TRUE,11/9/18 14:54,anonymous,EN,24,Female,,7 (very much),Independent,,4,Masters degree,30,225
+11/9/18 14:52,11/9/18 14:55,IP Address,100,143,TRUE,11/9/18 14:55,anonymous,EN,24,Female,,5,Democrat,,4,Bachelors degree,30,232
+11/9/18 14:54,11/9/18 14:55,IP Address,100,68,TRUE,11/9/18 14:55,anonymous,EN,24,Female,,6,Other party (please specify),anarchist/communist,5,Associates degree,3,233
+11/9/18 16:05,11/9/18 16:06,IP Address,100,36,TRUE,11/9/18 16:06,anonymous,EN,18,Female,,7 (very much),Democrat,,5,Some college-No degree,45,234
+11/9/18 16:05,11/9/18 16:06,IP Address,100,41,TRUE,11/9/18 16:06,anonymous,EN,19,Female,,7 (very much),Independent,,4,Some college-No degree,38,238
+11/9/18 16:05,11/9/18 16:06,IP Address,100,47,TRUE,11/9/18 16:06,anonymous,EN,27,Female,,7 (very much),Democrat,,5,Masters degree,60,237
+11/9/18 16:05,11/9/18 16:06,IP Address,100,43,TRUE,11/9/18 16:06,anonymous,EN,18,Female,,7 (very much),Democrat,,4,High school graduate,90,236
+11/9/18 16:05,11/9/18 16:06,IP Address,100,46,TRUE,11/9/18 16:06,anonymous,EN,18,Female,,7 (very much),Democrat,,5,Some college-No degree,60,235
+11/9/18 16:05,11/9/18 16:06,IP Address,100,62,TRUE,11/9/18 16:06,anonymous,EN,36,Female,,6,Other party (please specify),None,1 (very little),Masters degree,25,239
+11/9/18 16:07,11/9/18 16:07,IP Address,100,23,TRUE,11/9/18 16:07,anonymous,EN,18,Female,,7 (very much),Democrat,,5,Some college-No degree,47,234
+11/13/18 9:01,11/13/18 9:02,IP Address,100,32,TRUE,11/13/18 9:02,anonymous,EN,25,Female,,6,Democrat,,7 (very much),Masters degree,95,240
+11/13/18 9:58,11/13/18 9:59,IP Address,100,29,TRUE,11/13/18 9:59,anonymous,EN,20,Female,,7 (very much),Democrat,,5,Some college-No degree,61,241
+11/13/18 11:02,11/13/18 11:03,IP Address,100,37,TRUE,11/13/18 11:03,anonymous,EN,23,Female,,5,Independent,,1 (very little),Bachelors degree,6,244
+11/13/18 11:02,11/13/18 11:03,IP Address,100,40,TRUE,11/13/18 11:03,anonymous,EN,19,Male,,7 (very much),Democrat,,5,Bachelors degree,62,243
+11/13/18 11:02,11/13/18 11:03,IP Address,100,38,TRUE,11/13/18 11:03,anonymous,EN,18,Female,,7 (very much),Democrat,,4,Some college-No degree,85,242
+11/16/18 11:05,11/16/18 11:05,IP Address,100,25,TRUE,11/16/18 11:05,anonymous,EN,21,Female,,7 (very much),Democrat,,5,Some college-No degree,82,245
+11/16/18 11:05,11/16/18 11:06,IP Address,100,60,TRUE,11/16/18 11:06,anonymous,EN,21,Male,,7 (very much),Independent,,4,Some college-No degree,55,247
+11/16/18 11:05,11/16/18 11:06,IP Address,100,66,TRUE,11/16/18 11:06,anonymous,EN,20,Female,,7 (very much),Democrat,,3,Some college-No degree,80,246
+11/16/18 11:05,11/16/18 11:06,IP Address,100,72,TRUE,11/16/18 11:06,anonymous,EN,35,Female,,1 (very little),Democrat,,5,Associates degree,92,248
+11/16/18 12:23,11/16/18 12:23,IP Address,100,29,TRUE,11/16/18 12:23,anonymous,EN,19,Female,,7 (very much),Democrat,,6,Some college-No degree,71,250
+11/16/18 12:23,11/16/18 12:23,IP Address,100,48,TRUE,11/16/18 12:23,anonymous,EN,20,Male,,7 (very much),Republican,,3,Some college-No degree,20,253
+11/16/18 12:23,11/16/18 12:24,IP Address,100,41,TRUE,11/16/18 12:24,anonymous,EN,20,Female,,6,Democrat,,4,Some college-No degree,82,249
+11/16/18 12:23,11/16/18 12:24,IP Address,100,39,TRUE,11/16/18 12:24,anonymous,EN,19,Male,,7 (very much),Democrat,,7 (very much),High school graduate,79,252
+11/16/18 12:23,11/16/18 12:24,IP Address,100,89,TRUE,11/16/18 12:24,anonymous,EN,23,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,10,251
+11/16/18 13:31,11/16/18 13:32,IP Address,100,49,TRUE,11/16/18 13:32,anonymous,EN,28,Female,,6,Democrat,,5,Bachelors degree,92,255
+11/16/18 13:31,11/16/18 13:32,IP Address,100,58,TRUE,11/16/18 13:32,anonymous,EN,25,Female,,7 (very much),Other party (please specify),Not applicable (I'm an international student),1 (very little),Masters degree,67,254
+11/16/18 14:51,11/16/18 14:52,IP Address,100,23,TRUE,11/16/18 14:52,anonymous,EN,19,Female,,6,Democrat,,7 (very much),Some college-No degree,71,261
+11/16/18 14:51,11/16/18 14:52,IP Address,100,40,TRUE,11/16/18 14:52,anonymous,EN,23,Female,,7 (very much),Democrat,,5,Some college-No degree,81,256
+11/16/18 14:52,11/16/18 14:52,IP Address,100,39,TRUE,11/16/18 14:52,anonymous,EN,22,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,32,259
+11/16/18 14:51,11/16/18 14:52,IP Address,100,62,TRUE,11/16/18 14:52,anonymous,EN,23,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,40,260
+11/16/18 14:52,11/16/18 14:52,IP Address,100,44,TRUE,11/16/18 14:52,anonymous,EN,19,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,91,257
+11/16/18 14:51,11/16/18 14:53,IP Address,100,75,TRUE,11/16/18 14:53,anonymous,EN,45,Male,,7 (very much),Democrat,,5,Associates degree,,258
+11/16/18 14:56,11/16/18 14:57,IP Address,100,40,TRUE,11/16/18 14:57,anonymous,EN,20,Female,,7 (very much),Democrat,,6,Some college-No degree,82,262
+11/16/18 14:58,11/16/18 14:59,IP Address,100,33,TRUE,11/16/18 14:59,anonymous,EN,25,Male,,7 (very much),Independent,,1 (very little),Bachelors degree,10,263
+11/16/18 15:11,11/16/18 15:12,IP Address,100,48,TRUE,11/16/18 15:12,anonymous,EN,45,Male,,7 (very much),Democrat,,3,Associates degree,7,258
+11/16/18 16:07,11/16/18 16:08,IP Address,100,30,TRUE,11/16/18 16:08,anonymous,EN,21,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,72,270
+11/16/18 16:08,11/16/18 16:08,IP Address,100,34,TRUE,11/16/18 16:08,anonymous,EN,18,Female,,6,Democrat,,4,Some college-No degree,85,269
+11/16/18 16:08,11/16/18 16:08,IP Address,100,43,TRUE,11/16/18 16:08,anonymous,EN,18,Female,,7 (very much),Other party (please specify),none,1 (very little),Some college-No degree,,268
+11/16/18 16:08,11/16/18 16:08,IP Address,100,47,TRUE,11/16/18 16:09,anonymous,EN,24,Female,,5,Independent,,4,Bachelors degree,50,264
+11/16/18 16:08,11/16/18 16:09,IP Address,100,58,TRUE,11/16/18 16:09,anonymous,EN,24,Female,,7 (very much),Democrat,,3,Bachelors degree,100,266
+11/16/18 16:08,11/16/18 16:09,IP Address,100,38,TRUE,11/16/18 16:09,anonymous,EN,21,Male,,7 (very much),Independent,,1 (very little),High school graduate,30,265
+11/16/18 16:07,11/16/18 16:09,IP Address,100,80,TRUE,11/16/18 16:09,anonymous,EN,22,Female,,7 (very much),Republican,,5,Bachelors degree,60,267
+11/16/18 16:09,11/16/18 16:09,IP Address,100,26,TRUE,11/16/18 16:09,anonymous,EN,18,Female,,7 (very much),Independent,,3,Some college-No degree,50,268
+11/27/18 11:02,11/27/18 11:03,IP Address,100,39,TRUE,11/27/18 11:03,anonymous,EN,21,Male,,7 (very much),Democrat,,4,Some college-No degree,61,271
+11/30/18 11:02,11/30/18 11:02,IP Address,100,40,TRUE,11/30/18 11:02,anonymous,EN,29,Female,,6,Democrat,,6,Bachelors degree,90,271
+11/30/18 11:02,11/30/18 11:02,IP Address,100,42,TRUE,11/30/18 11:02,anonymous,EN,22,Female,,7 (very much),Democrat,,6,Some college-No degree,85,272
+11/30/18 11:07,11/30/18 11:08,IP Address,100,55,TRUE,11/30/18 11:08,anonymous,EN,22,Female,,7 (very much),Democrat,,5,Some college-No degree,91,273
+11/30/18 12:18,11/30/18 12:19,IP Address,100,56,TRUE,11/30/18 12:19,anonymous,EN,27,Male,,4,Democrat,,6,Masters degree,85,274
+11/30/18 12:20,11/30/18 12:22,IP Address,100,79,TRUE,11/30/18 12:22,anonymous,EN,28,Female,,6,Democrat,,3,High school graduate,29,275
+11/30/18 15:55,11/30/18 15:56,IP Address,100,44,TRUE,11/30/18 15:56,anonymous,EN,19,Male,,6,Democrat,,3,Some college-No degree,75,276
+12/4/18 9:54,12/4/18 9:55,IP Address,100,39,TRUE,12/4/18 9:55,anonymous,EN,31,Male,,6,Democrat,,5,Associates degree,62,277
+12/4/18 11:05,12/4/18 11:05,IP Address,100,43,TRUE,12/4/18 11:06,anonymous,EN,18,Female,,6,Republican,,5,Some college-No degree,55,278
+12/7/18 13:32,12/7/18 13:33,IP Address,100,33,TRUE,12/7/18 13:33,anonymous,EN,18,Female,,7 (very much),Democrat,,5,High school graduate,83,280
+12/7/18 13:33,12/7/18 13:33,IP Address,100,36,TRUE,12/7/18 13:33,anonymous,EN,24,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,80,279
+12/7/18 13:35,12/7/18 13:36,IP Address,100,48,TRUE,12/7/18 13:36,anonymous,EN,19,Male,,7 (very much),Democrat,,4,Some college-No degree,52,281
+12/13/18 9:41,12/13/18 9:42,IP Address,100,47,TRUE,12/13/18 9:42,anonymous,EN,19,Female,,5,Democrat,,2,Some college-No degree,54,282
+12/13/18 9:42,12/13/18 9:42,IP Address,100,30,TRUE,12/13/18 9:42,anonymous,EN,20,Male,,7 (very much),Democrat,,7 (very much),Some college-No degree,50,285
+12/13/18 9:42,12/13/18 9:42,IP Address,100,34,TRUE,12/13/18 9:42,anonymous,EN,19,Female,,7 (very much),Democrat,,5,Some college-No degree,90,283
+12/13/18 9:42,12/13/18 9:43,IP Address,100,36,TRUE,12/13/18 9:43,anonymous,EN,22,Female,,7 (very much),Republican,,4,Bachelors degree,50,284
+12/13/18 10:30,12/13/18 10:30,IP Address,100,45,TRUE,12/13/18 10:30,anonymous,EN,20,Female,,7 (very much),Republican,,4,Some college-No degree,25,286
+12/13/18 10:36,12/13/18 10:37,IP Address,100,56,TRUE,12/13/18 10:37,anonymous,EN,26,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,50,287
+12/14/18 11:15,12/14/18 11:15,IP Address,100,37,TRUE,12/14/18 11:15,anonymous,EN,22,Male,,7 (very much),Independent,,3,Some college-No degree,60,290
+12/14/18 11:15,12/14/18 11:16,IP Address,100,51,TRUE,12/14/18 11:16,anonymous,EN,20,Female,,7 (very much),Democrat,,2,Some college-No degree,90,288
+12/14/18 11:15,12/14/18 11:16,IP Address,100,36,TRUE,12/14/18 11:16,anonymous,EN,23,Male,,7 (very much),Independent,,3,Some college-No degree,25,292
+12/14/18 11:15,12/14/18 11:16,IP Address,100,43,TRUE,12/14/18 11:16,anonymous,EN,27,Female,,6,Independent,,1 (very little),Masters degree,92,289
+12/14/18 11:15,12/14/18 11:17,IP Address,100,83,TRUE,12/14/18 11:17,anonymous,EN,36,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,30,291
+12/14/18 12:19,12/14/18 12:20,IP Address,100,62,TRUE,12/14/18 12:20,anonymous,EN,41,Male,,7 (very much),Republican,,7 (very much),Associates degree,50,293
+12/14/18 12:20,12/14/18 12:24,IP Address,100,239,TRUE,12/14/18 12:24,anonymous,EN,70,Female,,7 (very much),Democrat,,7 (very much),Masters degree,91,294
+12/14/18 12:25,12/14/18 12:26,IP Address,100,35,TRUE,12/14/18 12:26,anonymous,EN,20,Female,,5,Democrat,,4,Some college-No degree,62,295
+12/14/18 14:34,12/14/18 14:35,IP Address,100,54,TRUE,12/14/18 14:35,anonymous,EN,22,Female,,6,Democrat,,3,Some college-No degree,56,296
+12/14/18 16:05,12/14/18 16:06,IP Address,100,56,TRUE,12/14/18 16:06,anonymous,EN,62,Male,,7 (very much),Democrat,,4,Masters degree,10,298
+12/14/18 16:05,12/14/18 16:07,IP Address,100,88,TRUE,12/14/18 16:07,anonymous,EN,27,Female,,7 (very much),Democrat,,5,Bachelors degree,92,299
+12/14/18 16:07,12/14/18 16:08,IP Address,100,61,TRUE,12/14/18 16:08,anonymous,EN,45,Female,,7 (very much),Democrat,,1 (very little),Bachelors degree,50,287
+12/14/18 16:10,12/14/18 16:11,Spam,100,68,TRUE,12/14/18 16:11,anonymous,EN,62,Male,,7 (very much),Democrat,,4,Masters degree,10,298
+3/5/19 10:07,3/5/19 10:08,IP Address,100,45,TRUE,3/5/19 10:08,anonymous,EN,19,Male,,7 (very much),Democrat,,5,Some college-No degree,80,302
+3/5/19 10:07,3/5/19 10:08,IP Address,100,43,TRUE,3/5/19 10:08,anonymous,EN,21,Male,,7 (very much),Independent,,4,Bachelors degree,30,300
+3/5/19 10:07,3/5/19 10:08,IP Address,100,52,TRUE,3/5/19 10:08,anonymous,EN,19,Female,,7 (very much),Democrat,,4,Some college-No degree,50,303
+3/5/19 10:07,3/5/19 10:08,IP Address,100,46,TRUE,3/5/19 10:08,anonymous,EN,20,Female,,7 (very much),Democrat,,4,Some college-No degree,65,301
+3/5/19 10:07,3/5/19 10:08,IP Address,100,50,TRUE,3/5/19 10:08,anonymous,EN,18,Female,,7 (very much),Democrat,,5,Some college-No degree,90,304
+3/5/19 11:01,3/5/19 11:02,IP Address,100,30,TRUE,3/5/19 11:02,anonymous,EN,18,Female,,7 (very much),Democrat,,4,High school graduate,62,305
