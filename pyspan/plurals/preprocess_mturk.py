@@ -9,6 +9,11 @@ from pyspan.config import *
 
 BASE_DIR = paths["plurals_task_path"]
 
+# Exclude participants who failed the attention check?
+exclude = False
+exclude = True
+print("NOT "*(1 - exclude) + "EXCLUDING participants who failed the attention check from MTurk data.")
+
 # Load data
 words = pd.read_csv("{}stims_round2.csv".format(BASE_DIR)).set_index("Unnamed: 0")
 # Reorder words to be consistent with dataframe
@@ -111,22 +116,23 @@ demographics_raw = raw[["ID"] + demographics_cols]
 demographics_raw.columns = [ "ID", "age", "gender", "gender_5_TEXT", "Q13",
                              "Q4", "Q4_4_TEXT", "Q5", "Q9", "Q12_1" ]
 
-# Exclude data where the attention check was failed
-big_atc = np.in1d(atc1, words_original["large"]).reshape(atc1.shape)
-sm_atc = np.in1d(atc2, words_original["small"]).reshape(atc2.shape)
-atc = np.concatenate((big_atc, sm_atc), axis = 1)
-atc_failed = np.apply_along_axis(lambda a: sum(a) < 16, 1, atc)
-exclude = np.where(atc_failed)[0]
+if exclude:
+    # Exclude data where the attention check was failed
+    big_atc = np.in1d(atc1, words_original["large"]).reshape(atc1.shape)
+    sm_atc = np.in1d(atc2, words_original["small"]).reshape(atc2.shape)
+    atc = np.concatenate((big_atc, sm_atc), axis = 1)
+    atc_failed = np.apply_along_axis(lambda a: sum(a) < 16, 1, atc)
+    exclude = np.where(atc_failed)[0]
 
-valence_raw = valence_raw.loc[~np.in1d(valence_raw.ID, exclude)]
-cl_raw = cl_raw.loc[~np.in1d(cl_raw.ID, exclude)]
-politics_raw = politics_raw.loc[~np.in1d(politics_raw.ID, exclude)]
-demographics_raw = demographics_raw.loc[~np.in1d(demographics_raw.ID, exclude)]
+    valence_raw = valence_raw.loc[~np.in1d(valence_raw.ID, exclude)]
+    cl_raw = cl_raw.loc[~np.in1d(cl_raw.ID, exclude)]
+    politics_raw = politics_raw.loc[~np.in1d(politics_raw.ID, exclude)]
+    demographics_raw = demographics_raw.loc[~np.in1d(demographics_raw.ID, exclude)]
 
-# How many people failed the attention check?
-# print (len(exclude) / 300)
-assert ( len(valence_raw) == len(cl_raw) == len(politics_raw) ==
-         len(demographics_raw) == 300 - len(exclude) )
+    # How many people failed the attention check?
+    # print (len(exclude) / 300)
+    assert ( len(valence_raw) == len(cl_raw) == len(politics_raw) ==
+             len(demographics_raw) == 300 - len(exclude) )
 
 # Reformat data
 # Valence

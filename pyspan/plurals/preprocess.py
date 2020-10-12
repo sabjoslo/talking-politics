@@ -8,6 +8,11 @@ from pyspan.config import *
 
 BASE_DIR = paths["plurals_task_path"]
 
+# Exclude participants who failed the attention check?
+#exclude = False
+exclude = True
+print("NOT "*(1 - exclude) + "EXCLUDING participants who failed the attention check from in-lab data.")
+
 # Load data
 words = pd.read_csv("{}Plurals-survey_terms.csv".format(BASE_DIR))
 cats = pickle.load(open("{}Plurals-stimuli".format(BASE_DIR), "rb"))
@@ -77,137 +82,138 @@ assert len(politics_raw["ID"]) == len(np.unique(politics_raw["ID"]))
 assert len(gender_raw["ID"]) == len(np.unique(gender_raw["ID"]))
 assert len(meta_raw["ID"]) == len(np.unique(meta_raw["ID"]))
 
-# Exclude data where the attention check was failed
-big_ixs = range(300, 500)
-sm_ixs = range(500, 700)
+if exclude:
+    # Exclude data where the attention check was failed
+    big_ixs = range(300, 500)
+    sm_ixs = range(500, 700)
 
-# Valence
-# First attention check
-valence_big = valence_raw[big_ixs].astype(str)
-valence_big = valence_big.values[valence_big.values != "nan"]
-valence_big = valence_big.reshape(len(valence_raw) * 10)
-ma_big = np.ma.masked_where(np.in1d(valence_big, words["large"]), valence_big)
-assert all([ word in words["large"].values for word in valence_big[ma_big.mask] ])
-assert all([ word == "-99" or word in words["small"].values for word in
-             valence_big[~ma_big.mask] ])
-# Second attention check
-valence_sm = valence_raw[sm_ixs].astype(str)
-valence_sm = valence_sm.values[valence_sm.values != "nan"]
-valence_sm = valence_sm.reshape(len(valence_raw) * 10)
-ma_sm = np.ma.masked_where(np.in1d(valence_sm, words["small"]), valence_sm)
-assert all([ word in words["small"].values for word in valence_sm[ma_sm.mask] ])
-assert all([ word == "-99" or word in words["large"].values for word in
-             valence_sm[~ma_sm.mask] ])
+    # Valence
+    # First attention check
+    valence_big = valence_raw[big_ixs].astype(str)
+    valence_big = valence_big.values[valence_big.values != "nan"]
+    valence_big = valence_big.reshape(len(valence_raw) * 10)
+    ma_big = np.ma.masked_where(np.in1d(valence_big, words["large"]), valence_big)
+    assert all([ word in words["large"].values for word in valence_big[ma_big.mask] ])
+    assert all([ word == "-99" or word in words["small"].values for word in
+                 valence_big[~ma_big.mask] ])
+    # Second attention check
+    valence_sm = valence_raw[sm_ixs].astype(str)
+    valence_sm = valence_sm.values[valence_sm.values != "nan"]
+    valence_sm = valence_sm.reshape(len(valence_raw) * 10)
+    ma_sm = np.ma.masked_where(np.in1d(valence_sm, words["small"]), valence_sm)
+    assert all([ word in words["small"].values for word in valence_sm[ma_sm.mask] ])
+    assert all([ word == "-99" or word in words["large"].values for word in
+                 valence_sm[~ma_sm.mask] ])
 
-ma_big = ma_big.mask.reshape((len(valence_raw), 10))
-ma_sm = ma_sm.mask.reshape((len(valence_raw), 10))
-atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
-assert atc_dat.shape == ((len(valence_raw), 20))
+    ma_big = ma_big.mask.reshape((len(valence_raw), 10))
+    ma_sm = ma_sm.mask.reshape((len(valence_raw), 10))
+    atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
+    assert atc_dat.shape == ((len(valence_raw), 20))
 
-# How many people failed the attention check?
-nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
-assert len(nright) == len(valence_raw)
-failed = valence_raw.index[nright < 16]
-#print len(failed), len(failed) / len(valence_raw)
-valence_raw = valence_raw.loc[~np.in1d(valence_raw.index, failed)]
-assert len(valence_raw) == atc_dat.shape[0] - len(failed)
-valence_raw.reset_index(inplace = True)
+    # How many people failed the attention check?
+    nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
+    assert len(nright) == len(valence_raw)
+    failed = valence_raw.index[nright < 16]
+    #print len(failed), len(failed) / len(valence_raw)
+    valence_raw = valence_raw.loc[~np.in1d(valence_raw.index, failed)]
+    assert len(valence_raw) == atc_dat.shape[0] - len(failed)
+    valence_raw.reset_index(inplace = True)
 
-# Construal level
-# First attention check
-cl_big = cl_raw[big_ixs].astype(str)
-cl_big = cl_big.values[cl_big.values != "nan"]
-cl_big = cl_big.reshape(len(cl_raw) * 10)
-ma_big = np.ma.masked_where(np.in1d(cl_big, words["large"]), cl_big)
-assert all([ word in words["large"].values for word in cl_big[ma_big.mask] ])
-assert all([ word == "-99" or word in words["small"].values for word in
-             cl_big[~ma_big.mask] ])
-# Second attention check
-cl_sm = cl_raw[sm_ixs].astype(str)
-cl_sm = cl_sm.values[cl_sm.values != "nan"]
-cl_sm = cl_sm.reshape(len(cl_raw) * 10)
-ma_sm = np.ma.masked_where(np.in1d(cl_sm, words["small"]), cl_sm)
-assert all([ word in words["small"].values for word in cl_sm[ma_sm.mask] ])
-assert all([ word == "-99" or word in words["large"].values for word in
-             cl_sm[~ma_sm.mask] ])
+    # Construal level
+    # First attention check
+    cl_big = cl_raw[big_ixs].astype(str)
+    cl_big = cl_big.values[cl_big.values != "nan"]
+    cl_big = cl_big.reshape(len(cl_raw) * 10)
+    ma_big = np.ma.masked_where(np.in1d(cl_big, words["large"]), cl_big)
+    assert all([ word in words["large"].values for word in cl_big[ma_big.mask] ])
+    assert all([ word == "-99" or word in words["small"].values for word in
+                 cl_big[~ma_big.mask] ])
+    # Second attention check
+    cl_sm = cl_raw[sm_ixs].astype(str)
+    cl_sm = cl_sm.values[cl_sm.values != "nan"]
+    cl_sm = cl_sm.reshape(len(cl_raw) * 10)
+    ma_sm = np.ma.masked_where(np.in1d(cl_sm, words["small"]), cl_sm)
+    assert all([ word in words["small"].values for word in cl_sm[ma_sm.mask] ])
+    assert all([ word == "-99" or word in words["large"].values for word in
+                 cl_sm[~ma_sm.mask] ])
 
-ma_big = ma_big.mask.reshape((len(cl_raw), 10))
-ma_sm = ma_sm.mask.reshape((len(cl_raw), 10))
-atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
-assert atc_dat.shape == ((len(cl_raw), 20))
+    ma_big = ma_big.mask.reshape((len(cl_raw), 10))
+    ma_sm = ma_sm.mask.reshape((len(cl_raw), 10))
+    atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
+    assert atc_dat.shape == ((len(cl_raw), 20))
 
-# How many people failed the attention check?
-nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
-assert len(nright) == len(cl_raw)
-failed = cl_raw.index[nright < 16]
-#print len(failed), len(failed) / len(cl_raw)
-cl_raw = cl_raw.loc[~np.in1d(cl_raw.index, failed)]
-assert len(cl_raw) == atc_dat.shape[0] - len(failed)
-cl_raw.reset_index(inplace = True)
+    # How many people failed the attention check?
+    nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
+    assert len(nright) == len(cl_raw)
+    failed = cl_raw.index[nright < 16]
+    #print len(failed), len(failed) / len(cl_raw)
+    cl_raw = cl_raw.loc[~np.in1d(cl_raw.index, failed)]
+    assert len(cl_raw) == atc_dat.shape[0] - len(failed)
+    cl_raw.reset_index(inplace = True)
 
-# Politics
-# First attention check
-politics_big = politics_raw[big_ixs].astype(str)
-politics_big = politics_big.values[politics_big.values != "nan"]
-politics_big = politics_big.reshape(len(politics_raw) * 10)
-ma_big = np.ma.masked_where(np.in1d(politics_big, words["large"]), politics_big)
-assert all([ word in words["large"].values for word in politics_big[ma_big.mask] ])
-assert all([ word == "-99" or word in words["small"].values for word in
-             politics_big[~ma_big.mask] ])
-# Second attention check
-politics_sm = politics_raw[sm_ixs].astype(str)
-politics_sm = politics_sm.values[politics_sm.values != "nan"]
-politics_sm = politics_sm.reshape(len(politics_raw) * 10)
-ma_sm = np.ma.masked_where(np.in1d(politics_sm, words["small"]), politics_sm)
-assert all([ word in words["small"].values for word in politics_sm[ma_sm.mask] ])
-assert all([ word == "-99" or word in words["large"].values for word in
-             politics_sm[~ma_sm.mask] ])
+    # Politics
+    # First attention check
+    politics_big = politics_raw[big_ixs].astype(str)
+    politics_big = politics_big.values[politics_big.values != "nan"]
+    politics_big = politics_big.reshape(len(politics_raw) * 10)
+    ma_big = np.ma.masked_where(np.in1d(politics_big, words["large"]), politics_big)
+    assert all([ word in words["large"].values for word in politics_big[ma_big.mask] ])
+    assert all([ word == "-99" or word in words["small"].values for word in
+                 politics_big[~ma_big.mask] ])
+    # Second attention check
+    politics_sm = politics_raw[sm_ixs].astype(str)
+    politics_sm = politics_sm.values[politics_sm.values != "nan"]
+    politics_sm = politics_sm.reshape(len(politics_raw) * 10)
+    ma_sm = np.ma.masked_where(np.in1d(politics_sm, words["small"]), politics_sm)
+    assert all([ word in words["small"].values for word in politics_sm[ma_sm.mask] ])
+    assert all([ word == "-99" or word in words["large"].values for word in
+                 politics_sm[~ma_sm.mask] ])
 
-ma_big = ma_big.mask.reshape((len(politics_raw), 10))
-ma_sm = ma_sm.mask.reshape((len(politics_raw), 10))
-atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
-assert atc_dat.shape == ((len(politics_raw), 20))
+    ma_big = ma_big.mask.reshape((len(politics_raw), 10))
+    ma_sm = ma_sm.mask.reshape((len(politics_raw), 10))
+    atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
+    assert atc_dat.shape == ((len(politics_raw), 20))
 
-# How many people failed the attention check?
-nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
-assert len(nright) == len(politics_raw)
-failed = politics_raw.index[nright < 16]
-#print len(failed), len(failed) / len(politics_raw)
-politics_raw = politics_raw.loc[~np.in1d(politics_raw.index, failed)]
-assert len(politics_raw) == atc_dat.shape[0] - len(failed)
-politics_raw.reset_index(inplace = True)
+    # How many people failed the attention check?
+    nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
+    assert len(nright) == len(politics_raw)
+    failed = politics_raw.index[nright < 16]
+    #print len(failed), len(failed) / len(politics_raw)
+    politics_raw = politics_raw.loc[~np.in1d(politics_raw.index, failed)]
+    assert len(politics_raw) == atc_dat.shape[0] - len(failed)
+    politics_raw.reset_index(inplace = True)
 
-# Gender
-# First attention check
-gender_big = gender_raw[big_ixs].astype(str)
-gender_big = gender_big.values[gender_big.values != "nan"]
-gender_big = gender_big.reshape(len(gender_raw) * 10)
-ma_big = np.ma.masked_where(np.in1d(gender_big, words["large"]), gender_big)
-assert all([ word in words["large"].values for word in gender_big[ma_big.mask] ])
-assert all([ word == "-99" or word in words["small"].values for word in
-             gender_big[~ma_big.mask] ])
-# Second attention check
-gender_sm = gender_raw[sm_ixs].astype(str)
-gender_sm = gender_sm.values[gender_sm.values != "nan"]
-gender_sm = gender_sm.reshape(len(gender_raw) * 10)
-ma_sm = np.ma.masked_where(np.in1d(gender_sm, words["small"]), gender_sm)
-assert all([ word in words["small"].values for word in gender_sm[ma_sm.mask] ])
-assert all([ word == "-99" or word in words["large"].values for word in
-             gender_sm[~ma_sm.mask] ])
+    # Gender
+    # First attention check
+    gender_big = gender_raw[big_ixs].astype(str)
+    gender_big = gender_big.values[gender_big.values != "nan"]
+    gender_big = gender_big.reshape(len(gender_raw) * 10)
+    ma_big = np.ma.masked_where(np.in1d(gender_big, words["large"]), gender_big)
+    assert all([ word in words["large"].values for word in gender_big[ma_big.mask] ])
+    assert all([ word == "-99" or word in words["small"].values for word in
+                 gender_big[~ma_big.mask] ])
+    # Second attention check
+    gender_sm = gender_raw[sm_ixs].astype(str)
+    gender_sm = gender_sm.values[gender_sm.values != "nan"]
+    gender_sm = gender_sm.reshape(len(gender_raw) * 10)
+    ma_sm = np.ma.masked_where(np.in1d(gender_sm, words["small"]), gender_sm)
+    assert all([ word in words["small"].values for word in gender_sm[ma_sm.mask] ])
+    assert all([ word == "-99" or word in words["large"].values for word in
+                 gender_sm[~ma_sm.mask] ])
 
-ma_big = ma_big.mask.reshape((len(gender_raw), 10))
-ma_sm = ma_sm.mask.reshape((len(gender_raw), 10))
-atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
-assert atc_dat.shape == ((len(gender_raw), 20))
+    ma_big = ma_big.mask.reshape((len(gender_raw), 10))
+    ma_sm = ma_sm.mask.reshape((len(gender_raw), 10))
+    atc_dat = np.concatenate([ ma_big, ma_sm ], axis = 1)
+    assert atc_dat.shape == ((len(gender_raw), 20))
 
-# How many people failed the attention check?
-nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
-assert len(nright) == len(gender_raw)
-failed = gender_raw.index[nright < 16]
-#print len(failed), len(failed) / len(gender_raw)
-gender_raw = gender_raw.loc[~np.in1d(gender_raw.index, failed)]
-assert len(gender_raw) == atc_dat.shape[0] - len(failed)
-gender_raw.reset_index(inplace = True)
+    # How many people failed the attention check?
+    nright = np.apply_along_axis(lambda a: len(a[a]), 1, atc_dat)
+    assert len(nright) == len(gender_raw)
+    failed = gender_raw.index[nright < 16]
+    #print len(failed), len(failed) / len(gender_raw)
+    gender_raw = gender_raw.loc[~np.in1d(gender_raw.index, failed)]
+    assert len(gender_raw) == atc_dat.shape[0] - len(failed)
+    gender_raw.reset_index(inplace = True)
 
 # Reformat data
 # Valence
