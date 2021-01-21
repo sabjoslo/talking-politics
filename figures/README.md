@@ -1,0 +1,1 @@
+Contains the scripts to create the figures in the paper. Note that with the exception of `prep_data_for_fig1.py`, these are run using Python 3 and may require packages other than those listed in the project's `requirements.txt` file. Figures 2--4 rely on data files created by the `replicate.ipynb` files in the corresponding study directories.

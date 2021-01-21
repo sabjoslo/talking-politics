@@ -82,7 +82,7 @@ pygam==0.8.0
 Pygments==2.5.2
 pyparsing==2.4.6
 pyrsistent==0.15.7
--e git+https://github.com/sabjoslo/pyspan.git@1ba12e367e6d782fc7515ef3c787503e07065d89#egg=pyspan
+-e git+https://github.com/sabjoslo/talking-politics.git@b707d3272467270efa4c7747d9eb4fffd22e76ba#egg=pyspan
 python-dateutil==2.8.1
 python-utils==2.4.0
 pytz==2019.3

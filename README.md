@@ -6,7 +6,7 @@ Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). Can we detect conditioned v
 
 and
 
-Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). One fee, two fees; red fee, blue fee: People use the valence of others' speech in social relational judgments. \emph{In submission.}
+Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). One fee, two fees; red fee, blue fee: People use the valence of others' speech in social relational judgments. *Under review.*
 
 If you have questions, or notice that anything needed to replicate the analysis is missing, please contact Sabina Sloman at ssloman@andrew.cmu.edu.
 
@@ -38,7 +38,7 @@ Procedural words were selected based on the following criteria:
 2. Contained in a bigram that's said more than 10x as much as in general speech, and
 3. The word before and after it are the same in the majority of contexts seen.
 
-Running `pyspan/scripts/get_materials_for_procedural_words_coding.py` creates `output/words-unigrams.csv`, a csv with the unigrams that satisfy criteria 1 & 2, and `output/excerpts-unigrams.tex`, which can be compiled into a PDF with three randomly-selected excerpts that contain each of these unigrams. This PDF was used by an RA to code whether or not the word was preceded and followed by the same word in at least two of these instances, in which case, they coded it as procedural in `inputs/words-unigrams-proceduraladded.csv`
+Running `pyspan/scripts/get_materials_for_procedural_words_coding.py` creates `output/words-unigrams.csv`, a csv with the unigrams that satisfy criteria 1 & 2, and `output/excerpts-unigrams.tex`, which can be compiled into a PDF with three randomly-selected excerpts that contain each of these unigrams. This PDF was used by an RA to code whether or not the word was preceded and followed by the same word in at least two of these instances, in which case, they coded it as procedural in `inputs/words-unigrams-proceduraladded.csv`.
 
 # Calculating information-theoretic metrics
 
@@ -50,3 +50,5 @@ The `mode` settings (configurable in `settings`) determines whether or not these
 # Study design and analysis
 
 The directory `experiments` contains the raw data and Jupyter notebook files used to analyze these data.
+
+The contents of this repository are licensed under a [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/).

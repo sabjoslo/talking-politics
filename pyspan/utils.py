@@ -202,7 +202,6 @@ def plot_prf(gam, term, coef = None):
     plt.plot(x, pdeps)
     plt.fill_between(x, conf_intervals[:,0], conf_intervals[:,1],
                      alpha = .5)
-    plt.plot(x, coef * x)
 
 # Return a correlation between vectors X and Y where elements with missing
 # values in X or Y are removed

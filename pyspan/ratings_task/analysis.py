@@ -62,10 +62,7 @@ class PerceptualData(object):
         if filename:
             plt.savefig(filename)
 
-    def correlational_analysis(self, df, adjust_x_axis = True, midpoint = 0,
-                               savetofile = False, sepl = 0,
-                               standardize_x = False, xlabel = "Metric",
-                               verbose = True):
+    def item_level_res(self, df, savetofile = False):
         ixs = np.array(range(len(self.ixs)))
 
         xd = np.array([ df.loc[w]["dmetric"] for w in self.words ])
@@ -87,65 +84,6 @@ class PerceptualData(object):
         if savetofile:
             to_csv(dat, filename = savetofile, columns = [ "word", "dmetric",
                    "rmetric", "ratings_mean", "ratings_std", "frac_r" ])
-
-        if standardize_x:
-            mu, std = np.mean(xr), np.std(xr)
-            x = (xr - mu)/std
-            sepl = (sepl - mu)/std
-        else:
-            x = xr
-
-        fig, ax = plt.subplots(1, figsize = (40, 32))
-        if adjust_x_axis:
-            x_rad = max(max(x), -min(x))
-            x_rad *= 1.2
-            ax.set_xlim(-x_rad, x_rad)
-        seismic = plt.cm.ScalarMappable(norm = MidpointNormalize(midpoint = midpoint,
-                                                                 vmin = min(x),
-                                                                 vmax = max(x)),
-                                        cmap = "seismic")
-        color = seismic.to_rgba(x)
-        ax.scatter(x, y, s = 200, color = color)
-        ax.errorbar(x, y, yerr = yerr, fmt = ".", ms = 0, color = color)
-        ax.set_xlim(*ax.get_xlim())
-        # Set y axis to cover the full range of possible ratings
-        ax.set_ylim(0,5)
-        ax.plot([ sepl, sepl ], [ plt.ylim()[0], plt.ylim()[1] ], "k")
-        ax.plot([ plt.xlim()[0], plt.xlim()[1] ], [ 2.5, 2.5 ], "k")
-        # Add linear trend
-        X = sm.add_constant(x)
-        mod = sm.OLS(y, X)
-        res = mod.fit()
-        m0, m1 = res.params
-        s0, s1 = res.bse
-
-        if verbose:
-            print res.summary()
-            print "\n\n==========\n\n"
-            print "Pearson's R: %f (p-val: %f)"%stats.pearsonr(x, y)
-            print "Spearman's rho: %f (p-val: %f)"%stats.spearmanr(x, y)
-
-        x_edges = [ plt.xlim()[0], plt.xlim()[1] ]
-        y_edges = res.predict(sm.add_constant(x_edges))
-        ax.plot(x, res.fittedvalues, x_edges, y_edges, color="purple",
-                linewidth = 2)
-        prstd, iv_l, iv_u = wls_prediction_std(res)
-        ax = extended(ax, x, iv_l, linestyle = "--", color = "purple",
-                      linewidth = 2)
-        ax = extended(ax, x, iv_u, linestyle = "--", color = "purple",
-                      linewidth = 2)
-        ax.set_xlabel(xlabel, fontsize = 50)
-        ax.xaxis.set_tick_params(labelsize = 30)
-        ax.set_ylabel("Avg. rating", fontsize = 50)
-        ax.yaxis.set_tick_params(labelsize = 30)
-        # Set tick labels that are the rating+1, for interpretability
-        ax.set_yticks(range(6))
-        ax.set_yticklabels(range(1,7))
-        for i, w in enumerate(self.words[ixs]):
-            ax.annotate(w, xy = (x[i], y[i]), fontsize = 30)
-
-        if savetofile:
-            plt.savefig(savetofile)
 
 class SparseLR(object):
     def __init__(self, Y, X, var_labs = []):
