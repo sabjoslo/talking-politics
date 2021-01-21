@@ -1,3 +1,7 @@
+# These functions were written by Mahmood Arai, and are documented in
+# Arai (2011). Cluster-robust standard errors using R. Accessed at
+# https://www.researchgate.net/publication/251965897_Cluster-robust_standard_errors_using_R.
+
 clx <-
 function(fm, dfcw, cluster){
          # R-codes (www.r-project.org) for computing
