@@ -2,7 +2,7 @@ A library to derive information-theoretic metrics and perform other textual anal
 
 Includes code and data used in preparation of
 
-Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). Can we detect conditioned variation in political speech? Two kinds of discussion and types of conversation. [https://psyarxiv.com/cg7bf/](https://psyarxiv.com/cg7bf/).
+Sloman SJ, Oppenheimer DM, DeDeo S (2021) Can we detect conditioned variation in political speech? two kinds of discussion and types of conversation. PLoS ONE 16(2): e0246689. https://doi.org/10.1371/journal.pone.0246689
 
 and
 
