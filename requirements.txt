@@ -49,7 +49,7 @@ jupyter-core==4.6.3
 jupyterlab==0.33.12
 jupyterlab-launcher==0.11.2
 kiwisolver==1.1.0
-lxml==4.6.2
+lxml==4.6.3
 MarkupSafe==1.1.1
 matplotlib==2.2.5
 mistune==0.8.4
