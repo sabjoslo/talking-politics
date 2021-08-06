@@ -1,0 +1,184 @@
+ID,age,gender,gender_text_response,gender_strength,party_affil,party_affil_text_response,party_strength,education,political_bubble
+105,24,Male,,7 (very much),Other party (please specify),no affiliation,7 (very much),Masters degree,3
+106,21,Female,,7 (very much),Democrat,,2,Bachelors degree,64
+103,22,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,0
+100,47,Male,,7 (very much),Independent,,7 (very much),Some college-No degree,93
+111,22,Female,,7 (very much),Democrat,,5,Bachelors degree,100
+108,24,Female,,6,Democrat,,2,Bachelors degree,72
+112,24,Female,,6,Democrat,,5,Masters degree,51
+110,55,Female,,3,Independent,,5,Masters degree,77
+109,23,Male,,7 (very much),Other party (please specify),Liberitarian,5,Bachelors degree,50
+113,30,Female,,6,Independent,,3,Masters degree,11
+114,20,Male,,7 (very much),Democrat,,4,Some college-No degree,70
+116,30,Male,,7 (very much),Independent,,7 (very much),Masters degree,30
+115,45,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,71
+118,22,Female,,7 (very much),Democrat,,1 (very little),Masters degree,91
+119,43,Male,,7 (very much),Independent,,7 (very much),Associates degree,40
+117,23,Female,,7 (very much),Democrat,,3,Bachelors degree,40
+120,31,Male,,7 (very much),Independent,,6,Associates degree,60
+122,28,Male,,7 (very much),Independent,,2,Masters degree,60
+123,21,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,0
+125,18,Female,,7 (very much),Independent,,7 (very much),Some college-No degree,50
+128,18,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,95
+129,31,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,1
+130,22,Female,,7 (very much),Democrat,,5,Some college-No degree,80
+131,22,Male,,7 (very much),Independent,,4,Bachelors degree,70
+126,21,Male,,7 (very much),Democrat,,5,Bachelors degree,80
+127,21,Male,,7 (very much),Democrat,,4,Bachelors degree,9
+132,19,Female,,7 (very much),Democrat,,4,Some college-No degree,25
+137,20,Female,,7 (very much),Democrat,,6,Doctorate,74
+136,19,Female,,7 (very much),Independent,,4,Some college-No degree,50
+134,19,Male,,7 (very much),Independent,,1 (very little),Some college-No degree,35
+133,20,Female,,7 (very much),Democrat,,6,Some college-No degree,70
+135,19,Female,,6,Democrat,,5,Some college-No degree,76
+138,44,Male,,4,Other party (please specify),no party affiliation,1 (very little),Some college-No degree,87
+140,19,Female,,7 (very much),Democrat,,3,Some college-No degree,75
+147,18,Male,,7 (very much),Democrat,,4,High school graduate,95
+146,19,Female,,7 (very much),Republican,,4,Some college-No degree,8
+142,32,Male,,7 (very much),Independent,,7 (very much),Masters degree,70
+141,26,Male,,7 (very much),Democrat,,1 (very little),Bachelors degree,80
+145,19,Male,,5,Democrat,,5,Some college-No degree,80
+143,22,Female,,6,Other party (please specify),Don't care about politics,1 (very little),Bachelors degree,5
+144,22,Male,,7 (very much),Democrat,,2,Bachelors degree,24
+148,26,Female,,7 (very much),Democrat,,6,Masters degree,93
+149,20,Female,,7 (very much),Independent,,6,Some college-No degree,60
+151,22,Female,,7 (very much),Democrat,,3,Bachelors degree,51
+152,28,Female,,7 (very much),Independent,,1 (very little),Doctorate,40
+153,20,Male,,7 (very much),Republican,,2,Some college-No degree,35
+150,18,Male,,5,Other party (please specify),Green,5,Some college-No degree,50
+157,20,Female,,6,Democrat,,6,Some college-No degree,95
+156,19,Female,,7 (very much),Other party (please specify),No party affiliation,1 (very little),Bachelors degree,81
+155,19,Male,,7 (very much),Democrat,,1 (very little),Some college-No degree,75
+160,21,Female,,7 (very much),Independent,,7 (very much),High school graduate,50
+154,20,Female,,7 (very much),Independent,,3,High school graduate,61
+159,20,Female,,7 (very much),Democrat,,4,Some college-No degree,94
+164,21,Male,,6,Democrat,,2,Some college-No degree,70
+165,28,Female,,4,Democrat,,6,Masters degree,80
+166,24,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,60
+169,21,Male,,7 (very much),Democrat,,4,Some college-No degree,65
+171,20,Male,,7 (very much),Democrat,,4,Some college-No degree,65
+167,58,Female,,7 (very much),Republican,,4,Some college-No degree,31
+170,24,Female,,7 (very much),Democrat,,5,Masters degree,80
+174,19,Female,,7 (very much),Independent,,4,Bachelors degree,51
+175,18,Female,,6,Democrat,,7 (very much),Some college-No degree,81
+172,29,Both,,4,Democrat,,6,Masters degree,85
+176,19,Female,,6,Democrat,,2,High school graduate,81
+177,35,Male,,7 (very much),Independent,,3,Doctorate,50
+173,24,Female,,7 (very much),Other party (please specify),No affiliation,1 (very little),Masters degree,1
+178,18,Female,,7 (very much),Democrat,,5,Some college-No degree,100
+180,19,Female,,7 (very much),Democrat,,6,Some college-No degree,65
+181,22,Female,,7 (very much),Independent,,4,Bachelors degree,61
+184,18,Female,,7 (very much),Democrat,,3,High school graduate,90
+186,20,Female,,7 (very much),Independent,,5,Some college-No degree,50
+182,27,Male,,5,Democrat,,2,Associates degree,69
+183,27,Female,,6,Independent,,5,Some college-No degree,0
+185,27,Male,,7 (very much),Republican,,1 (very little),Masters degree,52
+189,21,Female,,7 (very much),Democrat,,3,Bachelors degree,71
+187,28,Female,,6,Democrat,,4,Masters degree,50
+188,28,Female,,7 (very much),Democrat,,5,Masters degree,83
+190,22,Female,,7 (very much),Democrat,,4,Bachelors degree,40
+191,27,Female,,6,Democrat,,4,Bachelors degree,72
+193,20,Female,,7 (very much),Independent,,1 (very little),High school graduate,21
+198,19,Male,,7 (very much),Republican,,3,High school graduate,18
+194,43,Female,,7 (very much),Democrat,,5,Some college-No degree,61
+196,56,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,81
+195,24,Male,,7 (very much),Democrat,,7 (very much),Masters degree,100
+197,53,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,100
+200,18,Male,,6,Democrat,,6,Some college-No degree,84
+199,22,Female,,7 (very much),Independent,,1 (very little),Bachelors degree,10
+3,22,Male,,7 (very much),Republican,,5,Bachelors degree,20
+204,22,Male,,7 (very much),Democrat,,4,Bachelors degree,91
+203,19,Female,,7 (very much),Democrat,,6,Some college-No degree,86
+202,19,Male,,5,Democrat,,4,Some college-No degree,80
+207,18,Male,,7 (very much),Independent,,4,High school graduate,83
+206,20,Female,,7 (very much),Democrat,,6,Some college-No degree,71
+208,29,Female,,6,Independent,,4,Bachelors degree,50
+205,18,Female,,7 (very much),Independent,,2,High school graduate,55
+209,22,Male,,5,Independent,,3,Bachelors degree,2
+210,27,Female,,7 (very much),Democrat,,5,Bachelors degree,71
+213,26,Female,,7 (very much),Democrat,,6,Bachelors degree,90
+215,23,Female,,5,Independent,,4,Masters degree,22
+211,25,Female,,5,Democrat,,5,Bachelors degree,59
+212,22,Male,,7 (very much),Democrat,,1 (very little),Bachelors degree,51
+214,24,Female,,3,Independent,,2,Bachelors degree,29
+218,20,Female,,7 (very much),Democrat,,4,Some college-No degree,71
+4,22,Female,,7 (very much),Independent,,7 (very much),Masters degree,50
+216,21,Female,,7 (very much),Democrat,,6,Some college-No degree,85
+217,78,Male,,7 (very much),Democrat,,6,Doctorate,69
+224,21,Male,,7 (very much),Independent,,5,Some college-No degree,33
+222,25,Male,,7 (very much),Independent,,1 (very little),Bachelors degree,13
+223,22,Male,,4,Independent,,7 (very much),Bachelors degree,50
+221,63,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,70
+230,26,Female,,7 (very much),Democrat,,7 (very much),Masters degree,60
+231,22,Male,,7 (very much),Democrat,,5,Some college-No degree,60
+227,21,Female,,6,Democrat,,4,Some college-No degree,80
+226,20,Female,,7 (very much),Democrat,,5,Some college-No degree,90
+229,21,Female,,7 (very much),Other party (please specify),non-US citizen,1 (very little),Bachelors degree,50
+228,24,Female,,7 (very much),Democrat,,5,Masters degree,81
+225,24,Female,,7 (very much),Independent,,4,Masters degree,30
+232,24,Female,,5,Democrat,,4,Bachelors degree,30
+233,24,Female,,6,Other party (please specify),anarchist/communist,5,Associates degree,3
+238,19,Female,,7 (very much),Independent,,4,Some college-No degree,38
+237,27,Female,,7 (very much),Democrat,,5,Masters degree,60
+236,18,Female,,7 (very much),Democrat,,4,High school graduate,90
+235,18,Female,,7 (very much),Democrat,,5,Some college-No degree,60
+239,36,Female,,6,Other party (please specify),None,1 (very little),Masters degree,25
+240,25,Female,,6,Democrat,,7 (very much),Masters degree,95
+241,20,Female,,7 (very much),Democrat,,5,Some college-No degree,61
+244,23,Female,,5,Independent,,1 (very little),Bachelors degree,6
+243,19,Male,,7 (very much),Democrat,,5,Bachelors degree,62
+242,18,Female,,7 (very much),Democrat,,4,Some college-No degree,85
+245,21,Female,,7 (very much),Democrat,,5,Some college-No degree,82
+247,21,Male,,7 (very much),Independent,,4,Some college-No degree,55
+246,20,Female,,7 (very much),Democrat,,3,Some college-No degree,80
+248,35,Female,,1 (very little),Democrat,,5,Associates degree,92
+250,19,Female,,7 (very much),Democrat,,6,Some college-No degree,71
+253,20,Male,,7 (very much),Republican,,3,Some college-No degree,20
+249,20,Female,,6,Democrat,,4,Some college-No degree,82
+252,19,Male,,7 (very much),Democrat,,7 (very much),High school graduate,79
+251,23,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,10
+255,28,Female,,6,Democrat,,5,Bachelors degree,92
+254,25,Female,,7 (very much),Other party (please specify),Not applicable (I'm an international student),1 (very little),Masters degree,67
+261,19,Female,,6,Democrat,,7 (very much),Some college-No degree,71
+256,23,Female,,7 (very much),Democrat,,5,Some college-No degree,81
+259,22,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,32
+260,23,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,40
+257,19,Female,,7 (very much),Democrat,,7 (very much),Some college-No degree,91
+262,20,Female,,7 (very much),Democrat,,6,Some college-No degree,82
+263,25,Male,,7 (very much),Independent,,1 (very little),Bachelors degree,10
+270,21,Female,,7 (very much),Independent,,7 (very much),Bachelors degree,72
+269,18,Female,,6,Democrat,,4,Some college-No degree,85
+264,24,Female,,5,Independent,,4,Bachelors degree,50
+266,24,Female,,7 (very much),Democrat,,3,Bachelors degree,100
+265,21,Male,,7 (very much),Independent,,1 (very little),High school graduate,30
+267,22,Female,,7 (very much),Republican,,5,Bachelors degree,60
+272,22,Female,,7 (very much),Democrat,,6,Some college-No degree,85
+273,22,Female,,7 (very much),Democrat,,5,Some college-No degree,91
+274,27,Male,,4,Democrat,,6,Masters degree,85
+275,28,Female,,6,Democrat,,3,High school graduate,29
+276,19,Male,,6,Democrat,,3,Some college-No degree,75
+277,31,Male,,6,Democrat,,5,Associates degree,62
+278,18,Female,,6,Republican,,5,Some college-No degree,55
+280,18,Female,,7 (very much),Democrat,,5,High school graduate,83
+279,24,Female,,7 (very much),Democrat,,7 (very much),Bachelors degree,80
+281,19,Male,,7 (very much),Democrat,,4,Some college-No degree,52
+282,19,Female,,5,Democrat,,2,Some college-No degree,54
+285,20,Male,,7 (very much),Democrat,,7 (very much),Some college-No degree,50
+283,19,Female,,7 (very much),Democrat,,5,Some college-No degree,90
+284,22,Female,,7 (very much),Republican,,4,Bachelors degree,50
+286,20,Female,,7 (very much),Republican,,4,Some college-No degree,25
+290,22,Male,,7 (very much),Independent,,3,Some college-No degree,60
+288,20,Female,,7 (very much),Democrat,,2,Some college-No degree,90
+292,23,Male,,7 (very much),Independent,,3,Some college-No degree,25
+289,27,Female,,6,Independent,,1 (very little),Masters degree,92
+291,36,Male,,7 (very much),Independent,,7 (very much),Bachelors degree,30
+293,41,Male,,7 (very much),Republican,,7 (very much),Associates degree,50
+294,70,Female,,7 (very much),Democrat,,7 (very much),Masters degree,91
+296,22,Female,,6,Democrat,,3,Some college-No degree,56
+299,27,Female,,7 (very much),Democrat,,5,Bachelors degree,92
+302,19,Male,,7 (very much),Democrat,,5,Some college-No degree,80
+300,21,Male,,7 (very much),Independent,,4,Bachelors degree,30
+303,19,Female,,7 (very much),Democrat,,4,Some college-No degree,50
+301,20,Female,,7 (very much),Democrat,,4,Some college-No degree,65
+304,18,Female,,7 (very much),Democrat,,5,Some college-No degree,90
+305,18,Female,,7 (very much),Democrat,,4,High school graduate,62

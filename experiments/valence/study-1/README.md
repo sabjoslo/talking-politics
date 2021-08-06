@@ -1,1 +1,9 @@
-This study was run as part of study 1 reported in "Two kinds of discussion and types of conversation." The Jupyter notebook used to generate the materials for that survey is [`conditional-variation/study-1/get_terms.ipynb`](https://github.com/sabjoslo/talking-politics/blob/master/experiments/conditional-variation/study-1/get_terms.ipynb). [The full list of antonyms considered](https://github.com/sabjoslo/talking-politics/blob/master/experiments/conditional-variation/study-1/version_used_for_LoP_Ratings_2_antonyms_modified_with-pkls2.csv), as well as the raw participant data, are also available in the folder `conditional-variation/study-1`. The 20 antonyms included as stimuli are included in the txt file `stimuli` in this folder. To replicate the analyses reported in the paper, run the notebook `replicate.ipynb` in this folder.
+Contains the materials needed to replicate the analyses of Study 1.
+
+- `responses.csv` contains the cleaned participant data.
+  - Columns `1` - `10` contain the participant rating of the word presented in the corresponding `pair` column. "1" indicates a response of "I am almost certain the speaker is a Democrat," and "6" indicates a response of "I am almost certain the speaker is a Republican." For example, the participant in the first row was presented the word "sorrow" (and not the word "joy") and gave a response corresponding to 2 ("I am reasonably sure the speaker is a Democrat").
+  - `party_strength` contains the participant's response to the question "How strongly do you identify as a `party_affil`?," where "1" indicates "very little" and "7" indicates "very much."
+  - `political_engagement` contains the participant's response to the question "How engaged are you in politics?," where "1" indicates "not at all" and "7" indicates "extremely."
+  - `imc_passed` indicates whether the participant passed the instructional manipulation check (Oppenheimer, Meyvis, & Davidenko, 2009). Participants for whom this value is "FALSE" were not included in reported analyses.
+- `replicate.ipynb` replicates the analyses in the paper.
+- `fig1b.py` reproduces Figure 1B.

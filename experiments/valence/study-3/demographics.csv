@@ -1,0 +1,301 @@
+ID,age,gender,gender_text_response,gender_strength,party_affil,party_affil_text_response,party_strength,education,political_bubble,atc_passed
+0,37,Male,-99,6,Democrat,-99,7 (very much),Bachelors degree,51,True
+1,34,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,78,True
+2,32,Male,-99,7 (very much),Republican,-99,4,Masters degree,74,True
+3,37,Male,-99,7 (very much),Republican,-99,5,Doctorate,83,True
+4,26,Female,-99,6,Republican,-99,3,Bachelors degree,64,True
+5,40,Female,-99,5,Democrat,-99,4,Bachelors degree,30,True
+6,30,Male,-99,7 (very much),Democrat,-99,3,Some college-No degree,35,True
+7,39,Male,-99,6,Republican,-99,5,Bachelors degree,71,True
+8,33,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,75,True
+9,31,Female,-99,6,Democrat,-99,6,Bachelors degree,20,True
+10,35,Male,-99,7 (very much),Republican,-99,7 (very much),Masters degree,70,True
+11,53,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,81,True
+12,41,Female,-99,5,Democrat,-99,2,Bachelors degree,73,True
+13,41,Female,-99,7 (very much),Democrat,-99,4,Some college-No degree,66,True
+14,57,Female,-99,7 (very much),Democrat,-99,7 (very much),Some high school,77,True
+15,32,Male,-99,7 (very much),Democrat,-99,5,Bachelors degree,80,True
+16,32,Female,-99,5,Democrat,-99,5,Masters degree,86,False
+17,34,Male,-99,7 (very much),Democrat,-99,7 (very much),High school graduate,70,True
+18,44,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,75,True
+19,25,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,71,True
+20,28,Female,-99,4,Democrat,-99,5,Masters degree,77,True
+21,29,Female,-99,7 (very much),Democrat,-99,7 (very much),High school graduate,51,False
+22,46,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,50,True
+23,48,Female,-99,7 (very much),Democrat,-99,6,Bachelors degree,50,True
+24,42,Female,-99,7 (very much),Democrat,-99,6,Bachelors degree,60,True
+25,42,Female,-99,7 (very much),Republican,-99,5,Associates degree,50,True
+26,56,Female,-99,5,Democrat,-99,4,Associates degree,49,False
+27,39,Male,-99,7 (very much),Democrat,-99,3,Bachelors degree,40,True
+28,39,Female,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,90,True
+29,25,Female,-99,7 (very much),Democrat,-99,5,Bachelors degree,55,True
+30,43,Female,-99,7 (very much),Democrat,-99,4,Bachelors degree,50,True
+31,35,Female,-99,7 (very much),Republican,-99,6,Masters degree,50,True
+32,35,Male,-99,7 (very much),Democrat,-99,2,Associates degree,8,True
+33,34,Female,-99,7 (very much),Democrat,-99,6,Masters degree,90,True
+34,29,Male,-99,7 (very much),Democrat,-99,4,Bachelors degree,80,True
+35,51,Male,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,100,True
+36,33,Female,-99,6,Democrat,-99,3,Some high school,30,True
+37,33,Female,-99,6,Democrat,-99,5,Some college-No degree,98,True
+38,66,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,96,True
+39,41,Female,-99,7 (very much),Republican,-99,5,Bachelors degree,70,True
+40,44,Female,-99,7 (very much),Republican,-99,5,Masters degree,56,False
+41,67,Male,-99,7 (very much),Democrat,-99,7 (very much),High school graduate,88,True
+42,52,Female,-99,7 (very much),Republican,-99,5,Some college-No degree,82,True
+43,29,Male,-99,6,Democrat,-99,4,Bachelors degree,58,True
+44,46,Female,-99,7 (very much),Republican,-99,3,High school graduate,75,True
+45,78,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,75,True
+46,27,Female,-99,7 (very much),Republican,-99,4,Associates degree,50,True
+47,26,Female,-99,7 (very much),Democrat,-99,7 (very much),Masters degree,71,True
+48,40,Male,-99,7 (very much),Democrat,-99,3,Some college-No degree,87,True
+49,56,Male,-99,7 (very much),Republican,-99,4,High school graduate,70,True
+50,30,Male,-99,7 (very much),Democrat,-99,6,Some college-No degree,92,True
+51,44,Female,-99,7 (very much),Republican,-99,5,High school graduate,70,True
+52,36,Male,-99,7 (very much),Democrat,-99,6,Bachelors degree,90,True
+53,35,Female,-99,7 (very much),Democrat,-99,5,Bachelors degree,83,True
+54,54,Female,-99,7 (very much),Republican,-99,7 (very much),Associates degree,90,True
+55,53,Female,-99,7 (very much),Republican,-99,6,Masters degree,76,True
+56,31,Female,-99,6,Democrat,-99,4,Masters degree,81,True
+57,28,Female,-99,7 (very much),Republican,-99,2,Bachelors degree,13,True
+58,48,Female,-99,7 (very much),Democrat,-99,3,High school graduate,45,True
+59,39,Male,-99,7 (very much),Democrat,-99,5,Some college-No degree,75,True
+60,33,Male,-99,7 (very much),Republican,-99,4,Bachelors degree,48,False
+61,60,Female,-99,7 (very much),Democrat,-99,6,Some college-No degree,61,True
+62,32,Female,-99,5,Democrat,-99,5,Associates degree,62,True
+63,34,Male,-99,4,Democrat,-99,5,Some college-No degree,72,True
+64,22,Male,-99,6,Democrat,-99,4,Bachelors degree,52,True
+65,53,Male,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,68,False
+66,57,Female,-99,7 (very much),Democrat,-99,7 (very much),Masters degree,80,True
+67,25,Male,-99,7 (very much),Democrat,-99,2,Some college-No degree,58,True
+68,44,Female,-99,7 (very much),Democrat,-99,4,Some college-No degree,50,True
+69,39,Female,-99,7 (very much),Republican,-99,5,Bachelors degree,81,True
+70,34,Female,-99,7 (very much),Democrat,-99,5,Bachelors degree,40,True
+71,37,Male,-99,5,Democrat,-99,3,Bachelors degree,55,True
+72,37,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,95,True
+73,68,Female,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,95,True
+74,32,Female,-99,7 (very much),Democrat,-99,4,Some college-No degree,50,True
+75,40,Male,-99,5,Republican,-99,4,High school graduate,52,True
+76,27,Female,-99,2,Democrat,-99,5,Some college-No degree,60,True
+77,36,Male,-99,7 (very much),Republican,-99,6,Some college-No degree,50,True
+78,47,Female,-99,7 (very much),Democrat,-99,7 (very much),Associates degree,99,True
+79,62,Male,-99,7 (very much),Republican,-99,3,Some college-No degree,70,True
+80,25,Male,-99,2,Democrat,-99,3,Bachelors degree,34,False
+81,40,Female,-99,6,Democrat,-99,3,Masters degree,91,True
+82,22,Male,-99,5,Democrat,-99,7 (very much),Bachelors degree,96,True
+83,23,Female,-99,7 (very much),Democrat,-99,5,Bachelors degree,84,True
+84,30,Male,-99,7 (very much),Democrat,-99,5,Bachelors degree,62,True
+85,28,Male,-99,7 (very much),Democrat,-99,7 (very much),Some college-No degree,45,False
+86,27,Male,-99,7 (very much),Democrat,-99,5,Bachelors degree,92,True
+87,31,Female,-99,4,Democrat,-99,7 (very much),Associates degree,96,False
+88,40,Male,-99,5,Democrat,-99,4,High school graduate,70,True
+89,58,Female,-99,7 (very much),Democrat,-99,2,Associates degree,16,True
+90,53,Female,-99,7 (very much),Republican,-99,3,High school graduate,9,True
+91,52,Female,-99,7 (very much),Democrat,-99,4,High school graduate,20,True
+92,26,Female,-99,7 (very much),Democrat,-99,7 (very much),Some college-No degree,97,True
+93,30,Male,-99,7 (very much),Democrat,-99,4,Bachelors degree,35,True
+94,39,Male,-99,7 (very much),Democrat,-99,2,Associates degree,60,True
+95,36,Female,-99,7 (very much),Democrat,-99,5,Some college-No degree,50,True
+96,43,Male,-99,7 (very much),Democrat,-99,6,Bachelors degree,85,True
+97,24,Female,-99,7 (very much),Democrat,-99,5,Bachelors degree,77,False
+98,43,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,90,True
+99,45,Male,-99,7 (very much),Democrat,-99,5,Some college-No degree,60,True
+100,40,Male,-99,7 (very much),Democrat,-99,1 (very little),High school graduate,51,True
+101,28,Female,-99,7 (very much),Democrat,-99,5,Associates degree,90,True
+102,31,Male,-99,7 (very much),Democrat,-99,2,Bachelors degree,90,True
+103,37,Male,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,10,True
+104,21,Female,-99,7 (very much),Democrat,-99,4,Associates degree,57,True
+105,58,Female,-99,7 (very much),Republican,-99,7 (very much),Masters degree,91,True
+106,35,Female,-99,5,Democrat,-99,4,Some high school,100,True
+107,40,Male,-99,6,Democrat,-99,5,Some college-No degree,55,True
+108,42,Male,-99,7 (very much),Republican,-99,5,Associates degree,90,True
+109,61,Female,-99,7 (very much),Democrat,-99,6,High school graduate,67,False
+110,28,Male,-99,3,Democrat,-99,7 (very much),Some college-No degree,51,True
+111,63,Female,-99,6,Democrat,-99,6,Bachelors degree,90,True
+112,44,Female,-99,4,Democrat,-99,4,Associates degree,50,True
+113,39,Male,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,70,True
+114,43,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,90,True
+115,28,Male,-99,7 (very much),Democrat,-99,5,Bachelors degree,64,True
+116,28,Male,-99,7 (very much),Democrat,-99,2,Bachelors degree,39,False
+117,26,Female,-99,7 (very much),Democrat,-99,5,Masters degree,70,True
+118,23,Male,-99,7 (very much),Democrat,-99,4,Doctorate,81,True
+119,31,Male,-99,7 (very much),Democrat,-99,6,Bachelors degree,75,True
+120,41,Female,-99,6,Democrat,-99,6,Bachelors degree,70,True
+121,55,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,92,True
+122,28,Male,-99,7 (very much),Democrat,-99,3,Bachelors degree,50,True
+123,68,Male,-99,7 (very much),Republican,-99,6,High school graduate,35,True
+124,31,Male,-99,7 (very much),Democrat,-99,1 (very little),Associates degree,60,True
+125,46,Male,-99,7 (very much),Democrat,-99,5,Doctorate,45,True
+126,24,Female,-99,5,Democrat,-99,5,Bachelors degree,81,True
+127,31,Female,-99,7 (very much),Democrat,-99,6,Some college-No degree,80,True
+128,51,Female,-99,7 (very much),Republican,-99,5,Some college-No degree,51,True
+129,32,Male,-99,7 (very much),Democrat,-99,6,Masters degree,72,True
+130,44,Female,-99,7 (very much),Republican,-99,4,Associates degree,50,True
+131,40,Male,-99,2,Democrat,-99,2,High school graduate,100,True
+132,33,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,74,True
+133,26,Female,-99,6,Democrat,-99,4,Bachelors degree,42,True
+134,22,Female,-99,7 (very much),Democrat,-99,6,Bachelors degree,90,True
+135,27,Male,-99,7 (very much),Democrat,-99,6,Masters degree,80,True
+136,59,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,75,True
+137,24,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,10,False
+138,28,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,80,True
+139,52,Female,-99,7 (very much),Republican,-99,5,Associates degree,90,True
+140,43,Male,-99,7 (very much),Republican,-99,5,High school graduate,82,True
+141,39,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,100,True
+142,29,Female,-99,7 (very much),Democrat,-99,4,Bachelors degree,75,True
+143,53,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,62,True
+144,59,Female,-99,7 (very much),Republican,-99,5,Bachelors degree,61,True
+145,32,Male,-99,7 (very much),Democrat,-99,3,Bachelors degree,38,True
+146,36,Male,-99,7 (very much),Democrat,-99,4,Masters degree,71,True
+147,28,Male,-99,7 (very much),Democrat,-99,5,Some college-No degree,39,False
+148,38,Female,-99,7 (very much),Democrat,-99,7 (very much),Masters degree,85,True
+149,34,Female,-99,7 (very much),Democrat,-99,7 (very much),Associates degree,85,True
+150,35,Male,-99,7 (very much),Democrat,-99,7 (very much),Masters degree,75,True
+151,48,Female,-99,7 (very much),Republican,-99,5,Some college-No degree,71,True
+152,27,Male,-99,7 (very much),Democrat,-99,7 (very much),Some college-No degree,52,False
+153,67,Male,-99,7 (very much),Republican,-99,6,High school graduate,10,True
+154,56,Male,-99,7 (very much),Democrat,-99,3,Bachelors degree,18,True
+155,23,Male,-99,7 (very much),Democrat,-99,4,Bachelors degree,85,True
+156,57,Female,-99,6,Republican,-99,5,High school graduate,81,True
+157,29,Male,-99,4,Democrat,-99,5,Bachelors degree,75,True
+158,41,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,92,True
+159,26,Male,-99,6,Democrat,-99,7 (very much),Some college-No degree,90,True
+160,33,Other (please specify),agender,5,Democrat,-99,5,Associates degree,70,True
+161,55,Female,-99,6,Democrat,-99,5,Bachelors degree,78,True
+162,41,Female,-99,6,Democrat,-99,7 (very much),Bachelors degree,95,True
+163,69,Female,-99,6,Democrat,-99,6,Bachelors degree,96,True
+164,65,Male,-99,7 (very much),Republican,-99,6,Associates degree,100,True
+165,22,Female,-99,7 (very much),Democrat,-99,6,Bachelors degree,92,True
+166,44,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,97,True
+167,52,Male,-99,7 (very much),Republican,-99,7 (very much),Associates degree,84,True
+168,38,Female,-99,7 (very much),Republican,-99,1 (very little),Some college-No degree,50,True
+169,25,Male,-99,7 (very much),Democrat,-99,5,Bachelors degree,77,True
+170,58,Female,-99,7 (very much),Republican,-99,7 (very much),Associates degree,66,True
+171,18,Male,-99,7 (very much),Democrat,-99,4,Some college-No degree,80,True
+172,52,Male,-99,6,Democrat,-99,7 (very much),Bachelors degree,81,True
+173,40,Female,-99,7 (very much),Democrat,-99,4,Masters degree,63,True
+174,38,Male,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,95,True
+175,27,Female,-99,4,Democrat,-99,7 (very much),Bachelors degree,85,True
+176,45,Female,-99,7 (very much),Republican,-99,1 (very little),Some college-No degree,11,True
+177,26,Female,-99,7 (very much),Republican,-99,3,Associates degree,62,True
+178,34,Female,-99,7 (very much),Democrat,-99,6,High school graduate,93,True
+179,39,Male,-99,2,Republican,-99,5,Masters degree,10,True
+180,24,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,93,True
+181,53,Male,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,85,True
+182,35,Female,-99,7 (very much),Democrat,-99,7 (very much),High school graduate,90,True
+183,35,Female,-99,7 (very much),Democrat,-99,5,Some college-No degree,87,True
+184,56,Female,-99,7 (very much),Democrat,-99,7 (very much),High school graduate,81,True
+185,28,Male,-99,6,Democrat,-99,2,Masters degree,75,True
+186,29,Male,-99,4,Democrat,-99,3,Bachelors degree,50,True
+187,45,Male,-99,7 (very much),Democrat,-99,5,Associates degree,61,True
+188,25,Male,-99,2,Democrat,-99,5,Associates degree,80,True
+189,27,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,80,True
+190,35,Female,-99,7 (very much),Republican,-99,7 (very much),High school graduate,79,True
+191,43,Female,-99,7 (very much),Democrat,-99,5,Associates degree,4,True
+192,41,Female,-99,7 (very much),Democrat,-99,5,Masters degree,91,True
+193,29,Female,-99,4,Democrat,-99,4,Bachelors degree,63,True
+194,44,Female,-99,7 (very much),Democrat,-99,5,Some college-No degree,40,True
+195,48,Male,-99,4,Republican,-99,1 (very little),Masters degree,51,True
+196,47,Female,-99,7 (very much),Republican,-99,1 (very little),Bachelors degree,80,True
+197,28,Female,-99,7 (very much),Republican,-99,3,Some college-No degree,37,True
+198,36,Male,-99,6,Democrat,-99,3,Masters degree,83,False
+199,32,Female,-99,6,Democrat,-99,2,Bachelors degree,61,False
+200,60,Female,-99,7 (very much),Republican,-99,4,High school graduate,100,True
+201,28,Female,-99,7 (very much),Democrat,-99,4,Bachelors degree,50,True
+202,30,Male,-99,7 (very much),Democrat,-99,4,Bachelors degree,78,True
+203,40,Female,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,91,True
+204,23,Female,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,86,True
+205,31,Female,-99,7 (very much),Republican,-99,1 (very little),Associates degree,50,True
+206,44,Male,-99,7 (very much),Democrat,-99,7 (very much),Doctorate,87,False
+207,33,Male,-99,7 (very much),Democrat,-99,6,Doctorate,70,True
+208,35,Male,-99,5,Democrat,-99,5,Bachelors degree,70,True
+209,60,Female,-99,7 (very much),Democrat,-99,4,Some college-No degree,90,True
+210,71,Male,-99,7 (very much),Democrat,-99,3,Bachelors degree,75,True
+211,23,Female,-99,7 (very much),Democrat,-99,7 (very much),Some college-No degree,72,True
+212,37,Female,-99,7 (very much),Republican,-99,4,Associates degree,31,True
+213,57,Female,-99,7 (very much),Democrat,-99,7 (very much),Associates degree,79,True
+214,46,Female,-99,7 (very much),Democrat,-99,4,Masters degree,40,True
+215,41,Female,-99,5,Democrat,-99,4,Bachelors degree,82,True
+216,24,Female,-99,7 (very much),Democrat,-99,4,Some college-No degree,50,True
+217,26,Female,-99,7 (very much),Democrat,-99,4,Associates degree,86,True
+218,38,Female,-99,7 (very much),Republican,-99,4,Bachelors degree,81,True
+219,25,Male,-99,7 (very much),Democrat,-99,7 (very much),Bachelors degree,100,True
+220,46,Male,-99,5,Democrat,-99,5,Associates degree,60,True
+221,30,Male,-99,6,Democrat,-99,5,Bachelors degree,61,False
+222,39,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,71,True
+223,49,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,78,True
+224,39,Female,-99,7 (very much),Republican,-99,5,Associates degree,73,True
+225,43,Male,-99,7 (very much),Republican,-99,5,High school graduate,71,True
+226,25,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,80,True
+227,44,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,75,True
+228,34,Male,-99,7 (very much),Republican,-99,4,Bachelors degree,50,True
+229,22,Male,-99,5,Republican,-99,5,Some college-No degree,35,True
+230,56,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,81,True
+231,35,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,70,True
+232,31,Male,-99,7 (very much),Republican,-99,5,Masters degree,85,True
+233,35,Male,-99,7 (very much),Republican,-99,3,Bachelors degree,20,False
+234,28,Female,-99,7 (very much),Republican,-99,5,Masters degree,82,True
+235,33,Female,-99,7 (very much),Republican,-99,6,Associates degree,65,True
+236,49,Female,-99,7 (very much),Republican,-99,4,Associates degree,41,True
+237,37,Male,-99,7 (very much),Republican,-99,6,Bachelors degree,81,True
+238,46,Female,-99,5,Republican,-99,6,Associates degree,80,True
+239,42,Female,-99,7 (very much),Republican,-99,5,Bachelors degree,67,True
+240,28,Male,-99,5,Republican,-99,4,Some college-No degree,85,True
+241,53,Female,-99,7 (very much),Republican,-99,6,High school graduate,85,True
+242,25,Female,-99,5,Republican,-99,5,Bachelors degree,48,True
+243,34,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,95,True
+244,55,Female,-99,7 (very much),Republican,-99,3,High school graduate,90,True
+245,41,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,58,True
+246,36,Male,-99,7 (very much),Republican,-99,4,High school graduate,25,True
+247,56,Male,-99,5,Republican,-99,5,Bachelors degree,77,True
+248,44,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,87,True
+249,50,Male,-99,7 (very much),Republican,-99,3,Bachelors degree,60,True
+250,67,Female,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,60,True
+251,42,Female,-99,5,Republican,-99,5,Masters degree,68,True
+252,35,Male,-99,7 (very much),Republican,-99,4,High school graduate,70,True
+253,42,Female,-99,7 (very much),Republican,-99,4,Bachelors degree,26,True
+254,26,Female,-99,6,Republican,-99,4,Masters degree,50,True
+255,39,Male,-99,7 (very much),Republican,-99,6,Bachelors degree,26,True
+256,38,Female,-99,7 (very much),Republican,-99,4,Associates degree,46,True
+257,65,Male,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,88,True
+258,45,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,63,True
+259,31,Female,-99,7 (very much),Republican,-99,6,Masters degree,87,True
+260,34,Male,-99,7 (very much),Republican,-99,6,Some college-No degree,45,True
+261,76,Male,-99,7 (very much),Republican,-99,6,Doctorate,10,True
+262,58,Female,-99,7 (very much),Republican,-99,6,Bachelors degree,34,True
+263,30,Female,-99,5,Republican,-99,5,Masters degree,75,True
+264,38,Female,-99,7 (very much),Republican,-99,5,Bachelors degree,50,True
+265,34,Male,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,70,True
+266,21,Male,-99,7 (very much),Republican,-99,1 (very little),Some college-No degree,45,True
+267,33,Female,-99,7 (very much),Republican,-99,7 (very much),High school graduate,81,True
+268,24,Female,-99,7 (very much),Republican,-99,2,High school graduate,52,True
+269,28,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,83,True
+270,34,Male,-99,7 (very much),Republican,-99,1 (very little),Bachelors degree,35,True
+271,32,Male,-99,7 (very much),Republican,-99,6,Bachelors degree,80,True
+272,36,Male,-99,7 (very much),Republican,-99,6,Some college-No degree,90,True
+273,39,Female,-99,7 (very much),Republican,-99,6,Associates degree,81,True
+274,38,Male,-99,7 (very much),Republican,-99,4,Bachelors degree,50,True
+275,52,Male,-99,7 (very much),Republican,-99,3,Masters degree,25,True
+276,39,Female,-99,5,Republican,-99,5,Bachelors degree,59,True
+277,31,Male,-99,7 (very much),Republican,-99,7 (very much),High school graduate,80,True
+278,55,Female,-99,7 (very much),Republican,-99,5,Associates degree,50,True
+279,30,Male,-99,7 (very much),Republican,-99,5,Bachelors degree,92,True
+280,25,Male,-99,7 (very much),Republican,-99,5,Associates degree,25,True
+281,48,Female,-99,7 (very much),Republican,-99,6,Some college-No degree,100,True
+282,51,Female,-99,7 (very much),Republican,-99,5,Associates degree,61,True
+283,37,Female,-99,7 (very much),Republican,-99,6,Masters degree,65,True
+284,30,Male,-99,7 (very much),Republican,-99,4,Some college-No degree,40,True
+285,35,Female,-99,7 (very much),Republican,-99,7 (very much),High school graduate,100,True
+286,28,Male,-99,7 (very much),Republican,-99,6,Some college-No degree,80,True
+287,29,Female,-99,4,Republican,-99,4,Some high school,80,True
+288,35,Male,-99,7 (very much),Republican,-99,6,Bachelors degree,50,True
+289,48,Male,-99,7 (very much),Republican,-99,5,High school graduate,80,True
+290,44,Male,-99,7 (very much),Republican,-99,7 (very much),Associates degree,83,True
+291,32,Male,-99,7 (very much),Republican,-99,7 (very much),Some college-No degree,80,True
+292,46,Female,-99,7 (very much),Republican,-99,5,Masters degree,75,True
+293,31,Female,-99,6,Republican,-99,6,High school graduate,70,True
+294,46,Female,-99,7 (very much),Republican,-99,5,Associates degree,72,True
+295,42,Female,-99,7 (very much),Republican,-99,5,Associates degree,70,True
+296,24,Male,-99,7 (very much),Republican,-99,5,Some college-No degree,90,True
+297,35,Female,-99,7 (very much),Republican,-99,3,Associates degree,50,True
+298,52,Female,-99,7 (very much),Republican,-99,7 (very much),Bachelors degree,100,True
+299,38,Male,-99,7 (very much),Republican,-99,6,High school graduate,76,True

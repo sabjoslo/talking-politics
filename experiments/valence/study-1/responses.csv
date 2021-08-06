@@ -1,0 +1,249 @@
+,1,2,3,4,5,6,7,8,9,10,pair1,pair2,pair3,pair4,pair5,pair6,pair7,pair8,pair9,pair10,age,gender,party_affil,education,party_strength,political_engagement,imc_passed
+0,2,6,4,4,1.0,3,1,6,6,5.0,sorrow,superior,scarce,qualified,laugh,unknown,clever,blame,bitter,inaccurate,57.0,Female,Democrat,Master's degree,6.0,7.0,False
+1,3,5,2,2,2.0,2,5,4,2,2.0,joy,inferior,plentiful,unqualified,cry,famous,stupid,praise,sweet,accurate,26.0,Female,Democrat,Bachelor's degree,4.0,6.0,False
+2,3,3,4,4,2.0,4,2,3,4,5.0,joy,superior,plentiful,qualified,cry,famous,stupid,praise,sweet,accurate,48.0,Female,Republican,Master's degree,6.0,6.0,True
+3,4,5,2,4,1.0,2,5,2,3,5.0,sorrow,inferior,scarce,unqualified,laugh,unknown,clever,blame,bitter,inaccurate,35.0,Female,Republican,Bachelor's degree,7.0,2.0,True
+4,3,4,5,4,3.0,5,3,4,4,4.0,sorrow,inferior,scarce,qualified,cry,famous,clever,praise,sweet,inaccurate,35.0,Female,Republican,Associate's/professional/vocational degree,3.0,4.0,True
+5,2,4,2,5,3.0,4,5,5,5,3.0,joy,superior,plentiful,unqualified,laugh,unknown,stupid,blame,bitter,accurate,45.0,Male,Democrat,Bachelor's degree,5.0,7.0,True
+6,2,6,3,6,2.0,3,3,1,5,5.0,joy,superior,plentiful,unqualified,laugh,unknown,clever,praise,bitter,inaccurate,40.0,Male,Democrat,Bachelor's degree,6.0,5.0,True
+7,6,6,1,3,6.0,1,6,6,3,1.0,sorrow,inferior,scarce,qualified,cry,famous,clever,blame,sweet,accurate,41.0,Male,Democrat,Associate's/professional/vocational degree,4.0,4.0,True
+8,2,5,5,2,5.0,5,5,3,4,4.0,sorrow,superior,plentiful,unqualified,cry,famous,stupid,blame,bitter,accurate,38.0,Female,Democrat,Bachelor's degree,2.0,2.0,True
+9,2,5,5,4,6.0,4,5,3,3,3.0,joy,superior,scarce,qualified,cry,famous,stupid,blame,sweet,inaccurate,36.0,Male,Democrat,Bachelor's degree,7.0,4.0,True
+10,5,2,5,2,2.0,2,1,4,2,5.0,joy,inferior,scarce,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,33.0,Male,Republican,Bachelor's degree,6.0,6.0,True
+11,3,4,3,5,4.0,3,3,3,4,3.0,sorrow,inferior,plentiful,unqualified,laugh,unknown,clever,praise,bitter,accurate,59.0,Female,Republican,Master's degree,1.0,2.0,True
+12,6,6,3,1,6.0,4,2,2,6,2.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,30.0,Male,Democrat,Bachelor's degree,6.0,6.0,True
+13,3,4,2,4,3.0,4,3,3,3,4.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,55.0,Male,Republican,Bachelor's degree,2.0,5.0,True
+14,3,4,4,3,3.0,4,3,3,4,4.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,29.0,Male,Republican,Bachelor's degree,3.0,1.0,False
+15,2,4,3,5,2.0,3,5,6,3,2.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,31.0,Male,Democrat,Bachelor's degree,5.0,5.0,False
+16,3,5,3,5,3.0,3,5,5,3,2.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,32.0,Female,Democrat,Bachelor's degree,5.0,6.0,False
+17,1,5,2,5,3.0,3,2,2,2,5.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,42.0,Female,Republican,Associate's/professional/vocational degree,5.0,6.0,True
+18,3,5,1,5,5.0,4,6,5,2,2.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,39.0,Female,Democrat,Some college (no degree),5.0,3.0,False
+19,3,4,3,3,4.0,4,4,3,4,3.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,24.0,Male,Democrat,Bachelor's degree,6.0,4.0,True
+20,4,5,4,2,3.0,5,5,5,4,2.0,sorrow,superior,scarce,unqualified,laugh,unknown,stupid,blame,sweet,accurate,35.0,Female,Democrat,Some college (no degree),7.0,5.0,True
+21,4,4,2,5,2.0,2,4,3,1,4.0,sorrow,superior,scarce,unqualified,laugh,unknown,clever,praise,sweet,inaccurate,34.0,Female,Republican,Bachelor's degree,5.0,5.0,True
+22,6,6,1,6,1.0,1,6,1,1,6.0,joy,superior,scarce,qualified,cry,famous,clever,blame,bitter,accurate,53.0,Male,Republican,Bachelor's degree,6.0,6.0,True
+23,5,6,1,6,3.0,1,2,6,3,6.0,sorrow,superior,scarce,unqualified,laugh,unknown,stupid,praise,sweet,accurate,33.0,Female,Republican,Bachelor's degree,2.0,1.0,True
+24,2,5,3,3,4.0,4,3,4,3,2.0,joy,inferior,plentiful,qualified,cry,famous,stupid,blame,bitter,accurate,32.0,Male,Democrat,Bachelor's degree,2.0,2.0,True
+25,2,6,3,6,3.0,3,5,5,6,2.0,joy,inferior,scarce,unqualified,laugh,famous,clever,blame,bitter,accurate,42.0,Female,Democrat,Master's degree,7.0,5.0,True
+26,3,5,3,4,5.0,3,4,6,5,5.0,joy,inferior,plentiful,qualified,laugh,famous,clever,blame,bitter,inaccurate,36.0,Male,Democrat,High school,7.0,3.0,True
+27,2,3,2,2,3.0,2,5,2,3,3.0,sorrow,superior,plentiful,qualified,cry,unknown,stupid,praise,sweet,inaccurate,27.0,Male,Democrat,Bachelor's degree,7.0,3.0,True
+28,2,4,2,4,4.0,4,4,2,3,5.0,sorrow,inferior,plentiful,unqualified,cry,unknown,stupid,praise,sweet,inaccurate,26.0,Female,Democrat,Bachelor's degree,2.0,6.0,True
+29,2,5,5,5,1.0,2,5,4,2,1.0,joy,inferior,plentiful,qualified,cry,famous,clever,praise,bitter,inaccurate,67.0,Male,Republican,Associate's/professional/vocational degree,5.0,5.0,True
+30,4,4,3,2,4.0,3,5,3,3,3.0,joy,superior,scarce,qualified,laugh,famous,stupid,praise,sweet,inaccurate,58.0,Male,Democrat,Master's degree,2.0,5.0,True
+31,3,3,2,4,4.0,2,3,4,1,4.0,sorrow,inferior,plentiful,unqualified,cry,unknown,clever,blame,bitter,accurate,44.0,Male,Republican,Associate's/professional/vocational degree,3.0,3.0,False
+32,3,5,4,5,4.0,4,4,5,2,5.0,sorrow,superior,plentiful,qualified,laugh,famous,clever,praise,bitter,accurate,26.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+33,4,2,5,2,3.0,4,2,3,4,3.0,joy,inferior,scarce,unqualified,cry,unknown,stupid,blame,sweet,inaccurate,28.0,Male,Republican,Bachelor's degree,1.0,1.0,True
+34,3,5,5,5,3.0,4,3,3,3,5.0,sorrow,inferior,scarce,qualified,laugh,unknown,clever,praise,bitter,accurate,31.0,Female,Republican,Bachelor's degree,3.0,3.0,True
+35,1,5,1,6,6.0,1,6,6,1,2.0,joy,superior,plentiful,unqualified,cry,famous,stupid,blame,sweet,inaccurate,39.0,Male,Democrat,Bachelor's degree,7.0,7.0,True
+36,3,2,1,1,2.0,2,5,6,2,5.0,sorrow,inferior,scarce,qualified,cry,unknown,stupid,blame,sweet,accurate,41.0,Female,Democrat,Bachelor's degree,5.0,3.0,True
+37,3,5,5,2,2.0,2,3,4,2,1.0,joy,superior,plentiful,unqualified,laugh,famous,clever,praise,bitter,inaccurate,36.0,Male,Republican,Bachelor's degree,5.0,4.0,True
+38,2,5,4,5,6.0,5,5,2,2,2.0,joy,superior,scarce,unqualified,cry,famous,stupid,blame,bitter,accurate,47.0,Male,Republican,Bachelor's degree,7.0,4.0,True
+39,3,5,2,2,2.0,3,6,5,2,4.0,sorrow,inferior,scarce,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,42.0,Male,Democrat,Master's degree,6.0,5.0,True
+40,3,4,4,5,3.0,4,2,2,4,4.0,sorrow,superior,plentiful,qualified,laugh,famous,clever,blame,bitter,accurate,28.0,Male,Republican,Bachelor's degree,3.0,7.0,True
+41,4,1,2,5,1.0,2,4,1,1,5.0,joy,inferior,scarce,qualified,laugh,famous,clever,blame,bitter,inaccurate,49.0,Male,Republican,Bachelor's degree,6.0,5.0,True
+42,2,3,5,2,4.0,4,3,4,3,4.0,joy,inferior,plentiful,unqualified,cry,unknown,clever,praise,sweet,inaccurate,59.0,Male,Republican,High school,4.0,2.0,True
+43,3,4,3,3,4.0,3,4,5,3,3.0,joy,superior,plentiful,unqualified,cry,unknown,stupid,blame,sweet,accurate,33.0,Male,Democrat,Bachelor's degree,5.0,6.0,True
+44,2,5,3,5,4.0,4,5,6,2,4.0,joy,inferior,plentiful,unqualified,cry,unknown,stupid,blame,sweet,inaccurate,30.0,Female,Democrat,Master's degree,5.0,4.0,True
+45,2,3,2,5,5.0,4,6,3,3,2.0,joy,superior,plentiful,unqualified,cry,famous,stupid,praise,sweet,inaccurate,35.0,Female,Democrat,Master's degree,6.0,3.0,True
+46,2,5,5,2,4.0,5,4,5,3,2.0,sorrow,inferior,scarce,qualified,laugh,famous,clever,praise,bitter,accurate,53.0,Male,Democrat,Master's degree,3.0,4.0,True
+47,2,4,2,3,4.0,5,5,4,3,3.0,sorrow,inferior,scarce,qualified,laugh,famous,clever,praise,bitter,accurate,50.0,Female,Democrat,Some college (no degree),3.0,4.0,True
+48,1,5,2,1,6.0,6,6,5,5,2.0,sorrow,superior,plentiful,unqualified,cry,unknown,stupid,blame,sweet,inaccurate,32.0,Male,Democrat,Master's degree,7.0,5.0,False
+49,2,5,2,5,2.0,2,2,2,2,5.0,sorrow,inferior,scarce,qualified,laugh,famous,stupid,praise,sweet,inaccurate,55.0,Male,Republican,Master's degree,4.0,1.0,True
+50,5,3,2,4,3.0,3,3,5,3,4.0,joy,superior,plentiful,unqualified,cry,unknown,clever,blame,bitter,accurate,33.0,Male,Republican,Bachelor's degree,5.0,7.0,True
+51,2,4,3,3,5.0,5,4,3,2,5.0,joy,inferior,plentiful,qualified,cry,unknown,clever,praise,sweet,inaccurate,25.0,Female,Democrat,Bachelor's degree,4.0,2.0,False
+52,1,5,1,1,1.0,5,1,5,6,1.0,sorrow,superior,scarce,unqualified,laugh,famous,stupid,blame,bitter,accurate,62.0,Female,Democrat,Bachelor's degree,7.0,4.0,True
+53,2,4,3,3,4.0,4,4,4,3,2.0,sorrow,superior,plentiful,unqualified,cry,famous,stupid,blame,bitter,accurate,38.0,Male,Democrat,Bachelor's degree,4.0,6.0,True
+54,2,6,5,5,2.0,6,6,1,2,1.0,joy,inferior,scarce,qualified,laugh,unknown,clever,praise,sweet,inaccurate,41.0,Male,Republican,Bachelor's degree,7.0,6.0,True
+55,5,4,5,4,3.0,5,2,3,3,2.0,joy,inferior,plentiful,qualified,cry,famous,stupid,blame,bitter,inaccurate,40.0,Male,Republican,Some college (no degree),2.0,6.0,True
+56,4,4,5,3,3.0,3,3,3,3,3.0,sorrow,superior,scarce,unqualified,laugh,unknown,clever,praise,sweet,accurate,27.0,Female,Democrat,Bachelor's degree,6.0,5.0,True
+57,3,5,2,4,2.0,3,5,3,2,5.0,sorrow,inferior,scarce,unqualified,laugh,famous,stupid,praise,sweet,inaccurate,55.0,Female,Democrat,Master's degree,4.0,3.0,False
+58,2,5,5,2,5.0,5,5,5,5,2.0,joy,superior,plentiful,qualified,cry,unknown,clever,blame,bitter,accurate,40.0,Female,Democrat,Bachelor's degree,7.0,7.0,False
+59,3,4,3,4,4.0,3,3,2,3,4.0,sorrow,inferior,plentiful,unqualified,laugh,famous,stupid,blame,bitter,inaccurate,40.0,Female,Republican,Master's degree,7.0,4.0,True
+60,3,4,5,4,3.0,4,4,2,3,5.0,joy,superior,scarce,qualified,cry,unknown,clever,praise,sweet,accurate,40.0,Female,Democrat,Bachelor's degree,5.0,3.0,True
+61,4,4,3,4,3.0,3,4,4,3,3.0,sorrow,inferior,plentiful,qualified,laugh,unknown,clever,blame,bitter,accurate,28.0,Female,Democrat,Bachelor's degree,3.0,4.0,True
+62,2,2,3,2,5.0,3,1,2,2,1.0,joy,superior,scarce,unqualified,cry,famous,stupid,praise,sweet,inaccurate,29.0,Female,Democrat,Some college (no degree),6.0,5.0,False
+63,2,4,2,5,2.0,5,3,5,3,2.0,joy,inferior,scarce,unqualified,laugh,famous,stupid,praise,sweet,inaccurate,42.0,Male,Democrat,Some college (no degree),6.0,3.0,True
+64,2,5,2,2,5.0,4,4,5,3,3.0,sorrow,superior,plentiful,qualified,cry,unknown,clever,blame,bitter,accurate,49.0,Female,Democrat,Bachelor's degree,5.0,4.0,True
+65,2,5,2,4,4.0,3,5,2,4,4.0,sorrow,inferior,plentiful,qualified,cry,unknown,stupid,praise,bitter,accurate,22.0,Male,Republican,Bachelor's degree,4.0,4.0,False
+66,1,6,6,2,5.0,5,2,4,5,2.0,joy,superior,scarce,qualified,cry,famous,clever,blame,bitter,inaccurate,38.0,Male,Democrat,High school,7.0,4.0,True
+67,1,4,2,1,6.0,5,2,6,6,2.0,sorrow,superior,plentiful,qualified,cry,unknown,clever,blame,bitter,accurate,52.0,Female,Democrat,Some college (no degree),6.0,5.0,True
+68,2,5,5,6,5.0,5,3,4,2,3.0,sorrow,superior,plentiful,qualified,laugh,famous,clever,praise,sweet,inaccurate,35.0,Female,Democrat,Bachelor's degree,1.0,4.0,True
+69,2,6,2,5,1.0,3,5,4,3,5.0,joy,inferior,scarce,unqualified,cry,unknown,stupid,blame,bitter,accurate,71.0,Male,Democrat,Bachelor's degree,3.0,5.0,True
+70,3,5,3,3,4.0,5,5,3,4,2.0,joy,inferior,scarce,unqualified,laugh,famous,stupid,praise,sweet,inaccurate,48.0,Female,Democrat,Bachelor's degree,7.0,5.0,True
+71,1,4,5,1,3.0,2,4,1,3,4.0,sorrow,inferior,plentiful,unqualified,laugh,famous,clever,blame,sweet,inaccurate,36.0,Male,Democrat,High school,6.0,6.0,True
+72,3,4,2,3,3.0,4,5,2,3,5.0,joy,superior,scarce,unqualified,laugh,unknown,stupid,praise,sweet,accurate,45.0,Male,Democrat,Some college (no degree),5.0,4.0,True
+73,3,5,4,3,4.0,3,4,5,4,4.0,sorrow,inferior,plentiful,qualified,cry,unknown,stupid,praise,bitter,inaccurate,28.0,Female,Democrat,Master's degree,4.0,4.0,True
+74,2,5,5,2,5.0,5,5,3,3,3.0,sorrow,inferior,plentiful,qualified,laugh,famous,clever,blame,sweet,accurate,51.0,Female,Democrat,High school,2.0,4.0,True
+75,3,3,4,5,4.0,3,4,2,5,3.0,joy,superior,scarce,unqualified,laugh,famous,clever,blame,sweet,accurate,29.0,Female,Republican,Associate's/professional/vocational degree,6.0,2.0,True
+76,2,5,4,1,2.0,4,6,1,3,3.0,sorrow,superior,scarce,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,42.0,Female,Democrat,Bachelor's degree,6.0,5.0,True
+77,1,5,5,2,1.0,5,2,2,1,5.0,joy,inferior,plentiful,unqualified,cry,famous,clever,blame,bitter,accurate,58.0,Male,Republican,Some college (no degree),4.0,6.0,False
+78,2,4,2,5,2.0,2,2,5,2,4.0,joy,superior,scarce,unqualified,cry,unknown,stupid,praise,bitter,inaccurate,50.0,Female,Republican,Bachelor's degree,6.0,6.0,True
+79,2,4,5,3,3.0,4,6,5,3,5.0,sorrow,superior,scarce,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,38.0,Female,Democrat,Bachelor's degree,7.0,4.0,False
+80,4,5,6,5,2.0,4,4,3,5,2.0,joy,inferior,plentiful,unqualified,cry,famous,clever,blame,bitter,accurate,68.0,Female,Democrat,Associate's/professional/vocational degree,3.0,5.0,True
+81,3,5,3,3,5.0,4,3,3,4,3.0,sorrow,inferior,scarce,qualified,cry,unknown,clever,praise,bitter,inaccurate,23.0,Male,Democrat,Some college (no degree),6.0,5.0,False
+82,3,4,3,4,3.0,4,4,4,3,3.0,joy,superior,plentiful,unqualified,laugh,famous,stupid,blame,sweet,accurate,35.0,Female,Democrat,Master's degree,2.0,4.0,False
+83,5,5,5,3,5.0,5,5,3,3,3.0,sorrow,inferior,scarce,qualified,laugh,unknown,stupid,blame,sweet,accurate,39.0,Male,Democrat,Some college (no degree),3.0,3.0,True
+84,1,5,1,5,5.0,5,1,1,5,2.0,joy,superior,plentiful,unqualified,cry,famous,clever,praise,bitter,inaccurate,61.0,Female,Democrat,Some college (no degree),2.0,3.0,True
+85,5,2,3,3,3.0,2,6,4,5,1.0,joy,inferior,scarce,unqualified,laugh,famous,clever,blame,bitter,inaccurate,63.0,Male,Republican,High school,6.0,5.0,True
+86,2,1,2,5,5.0,4,4,4,5,4.0,sorrow,inferior,scarce,qualified,laugh,famous,stupid,blame,bitter,inaccurate,33.0,Female,Republican,Bachelor's degree,5.0,1.0,True
+87,4,2,5,3,3.0,3,5,5,5,5.0,joy,superior,plentiful,unqualified,cry,unknown,clever,praise,sweet,accurate,37.0,Male,Republican,Some college (no degree),6.0,5.0,True
+88,3,3,4,3,3.0,4,4,4,4,4.0,sorrow,superior,plentiful,unqualified,laugh,famous,clever,praise,sweet,accurate,40.0,Female,Republican,Some college (no degree),3.0,1.0,True
+89,5,3,5,5,1.0,5,1,4,2,3.0,joy,inferior,scarce,qualified,cry,unknown,stupid,blame,bitter,inaccurate,29.0,Female,Republican,Master's degree,5.0,1.0,True
+90,3,4,4,4,3.0,4,4,4,3,3.0,sorrow,superior,plentiful,qualified,cry,unknown,stupid,praise,sweet,accurate,29.0,Female,Democrat,Some college (no degree),5.0,3.0,True
+91,3,4,2,3,3.0,2,6,2,2,3.0,joy,superior,plentiful,unqualified,laugh,unknown,stupid,praise,sweet,inaccurate,43.0,Female,Democrat,Bachelor's degree,4.0,5.0,True
+92,2,5,3,1,5.0,4,4,5,5,2.0,sorrow,inferior,scarce,unqualified,cry,famous,clever,blame,bitter,accurate,68.0,Male,Democrat,Some college (no degree),7.0,6.0,True
+93,3,4,3,3,3.0,4,4,4,4,4.0,joy,inferior,scarce,qualified,cry,unknown,clever,blame,bitter,inaccurate,32.0,Male,Democrat,Master's degree,5.0,4.0,True
+94,3,5,2,4,2.0,4,3,2,2,2.0,joy,superior,plentiful,unqualified,laugh,unknown,clever,blame,bitter,inaccurate,37.0,Male,Republican,Master's degree,6.0,6.0,False
+95,4,2,5,2,2.0,6,5,4,6,2.0,sorrow,superior,plentiful,qualified,laugh,famous,stupid,praise,sweet,accurate,34.0,Male,Democrat,Bachelor's degree,6.0,5.0,True
+96,3,4,4,3,4.0,3,5,4,4,2.0,sorrow,inferior,scarce,qualified,cry,famous,stupid,praise,sweet,accurate,36.0,Female,Democrat,Bachelor's degree,7.0,6.0,False
+97,2,2,2,2,3.0,1,2,2,3,3.0,joy,inferior,scarce,unqualified,laugh,unknown,stupid,praise,sweet,accurate,36.0,Female,Democrat,Bachelor's degree,6.0,6.0,True
+98,3,2,2,2,3.0,3,2,5,5,5.0,sorrow,superior,plentiful,qualified,cry,famous,clever,blame,bitter,inaccurate,49.0,Female,Democrat,Master's degree,5.0,5.0,True
+99,3,3,2,2,3.0,4,2,5,5,2.0,joy,superior,plentiful,qualified,laugh,famous,clever,blame,bitter,accurate,53.0,Female,Democrat,Associate's/professional/vocational degree,3.0,2.0,False
+100,3,6,3,3,3.0,3,6,3,3,6.0,sorrow,inferior,scarce,unqualified,cry,unknown,stupid,praise,sweet,inaccurate,36.0,Female,Democrat,Bachelor's degree,5.0,2.0,False
+101,6,4,2,3,5.0,4,2,3,3,2.0,joy,superior,scarce,qualified,laugh,famous,stupid,blame,bitter,inaccurate,27.0,Male,Republican,Bachelor's degree,3.0,4.0,True
+102,2,5,4,2,5.0,4,4,3,3,1.0,sorrow,inferior,plentiful,unqualified,cry,unknown,clever,praise,sweet,accurate,54.0,Male,Democrat,Associate's/professional/vocational degree,6.0,6.0,True
+103,3,4,4,4,2.0,3,1,1,2,2.0,joy,superior,scarce,qualified,laugh,famous,stupid,blame,bitter,inaccurate,57.0,Female,Republican,Bachelor's degree,5.0,4.0,True
+104,2,5,2,4,1.0,5,2,3,2,4.0,joy,inferior,plentiful,unqualified,laugh,unknown,clever,blame,sweet,accurate,43.0,Male,Republican,Bachelor's degree,7.0,2.0,True
+105,5,1,6,1,5.0,2,6,6,6,2.0,sorrow,superior,scarce,qualified,cry,famous,stupid,praise,bitter,inaccurate,43.0,Female,Republican,Master's degree,3.0,3.0,True
+106,2,3,5,4,3.0,5,4,2,4,2.0,sorrow,inferior,plentiful,qualified,cry,famous,clever,blame,sweet,inaccurate,41.0,Male,Republican,Higher-level graduate degree,5.0,5.0,True
+107,2,5,5,4,2.0,4,4,4,5,2.0,joy,superior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,accurate,33.0,Female,Democrat,Bachelor's degree,7.0,7.0,True
+108,3,4,3,5,4.0,4,4,3,3,3.0,joy,superior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,accurate,30.0,Female,Republican,Master's degree,4.0,3.0,True
+109,5,5,5,5,5.0,4,6,2,4,2.0,sorrow,superior,plentiful,qualified,cry,unknown,stupid,praise,sweet,inaccurate,46.0,Male,Republican,Higher-level graduate degree,2.0,5.0,True
+110,4,2,3,3,5.0,5,3,5,2,2.0,sorrow,inferior,plentiful,qualified,cry,famous,clever,blame,sweet,inaccurate,31.0,Female,Democrat,Associate's/professional/vocational degree,5.0,4.0,False
+111,4,4,5,5,3.0,2,3,2,2,4.0,joy,inferior,scarce,unqualified,laugh,famous,clever,blame,bitter,accurate,40.0,Male,Republican,Bachelor's degree,5.0,3.0,False
+112,5,5,4,2,5.0,3,4,5,5,2.0,sorrow,superior,plentiful,qualified,cry,unknown,clever,blame,sweet,accurate,24.0,Female,Democrat,Bachelor's degree,4.0,5.0,False
+113,1,6,6,4,1.0,4,6,2,6,6.0,joy,inferior,scarce,unqualified,laugh,famous,stupid,praise,bitter,inaccurate,41.0,Male,Democrat,Higher-level graduate degree,7.0,5.0,True
+114,3,4,3,3,4.0,4,3,3,4,3.0,sorrow,inferior,scarce,unqualified,laugh,famous,clever,praise,bitter,accurate,35.0,Male,Democrat,Bachelor's degree,6.0,4.0,True
+115,2,6,4,5,1.0,3,2,1,4,1.0,sorrow,superior,plentiful,qualified,laugh,unknown,clever,blame,sweet,inaccurate,59.0,Female,Republican,Bachelor's degree,7.0,6.0,True
+116,5,5,2,5,3.0,4,4,4,2,2.0,joy,superior,plentiful,qualified,cry,unknown,stupid,blame,sweet,inaccurate,38.0,Female,Republican,High school,4.0,3.0,True
+117,2,5,4,3,4.0,4,5,3,5,2.0,joy,inferior,scarce,unqualified,cry,famous,stupid,praise,bitter,accurate,38.0,Female,Democrat,Higher-level graduate degree,7.0,6.0,True
+118,2,6,2,5,6.0,5,6,2,5,5.0,joy,inferior,scarce,unqualified,laugh,famous,clever,praise,sweet,inaccurate,25.0,Female,Democrat,Bachelor's degree,4.0,4.0,True
+119,2,5,4,3,5.0,4,6,3,3,2.0,sorrow,superior,plentiful,qualified,cry,unknown,stupid,blame,bitter,accurate,33.0,Female,Democrat,Bachelor's degree,6.0,5.0,True
+120,4,6,3,6,6.0,5,2,3,6,2.0,sorrow,inferior,plentiful,unqualified,laugh,famous,clever,praise,bitter,accurate,60.0,Male,Democrat,Bachelor's degree,7.0,7.0,True
+121,3,5,4,2,4.0,3,6,4,5,3.0,joy,superior,scarce,qualified,cry,unknown,stupid,blame,sweet,inaccurate,32.0,Male,Democrat,Bachelor's degree,7.0,6.0,True
+122,3,3,5,3,5.0,3,5,3,2,6.0,joy,inferior,plentiful,qualified,cry,unknown,stupid,praise,bitter,accurate,25.0,Female,Republican,Some college (no degree),3.0,3.0,True
+123,4,4,5,4,2.0,4,5,1,2,2.0,sorrow,superior,scarce,unqualified,laugh,famous,clever,blame,sweet,inaccurate,36.0,Female,Republican,Bachelor's degree,6.0,5.0,True
+124,3,3,5,3,5.0,2,3,5,5,2.0,sorrow,inferior,plentiful,unqualified,cry,unknown,clever,praise,sweet,inaccurate,36.0,Female,Republican,Bachelor's degree,4.0,3.0,True
+125,1,6,6,1,2.0,4,5,6,4,2.0,joy,superior,scarce,qualified,laugh,famous,stupid,blame,bitter,accurate,37.0,Female,Democrat,Associate's/professional/vocational degree,4.0,3.0,True
+126,5,4,2,6,5.0,5,4,2,2,5.0,sorrow,inferior,plentiful,unqualified,laugh,unknown,clever,praise,sweet,inaccurate,45.0,Female,Democrat,Bachelor's degree,3.0,2.0,False
+127,5,5,4,5,3.0,3,3,3,3,5.0,joy,superior,scarce,qualified,cry,famous,stupid,blame,bitter,accurate,26.0,Female,Republican,Bachelor's degree,4.0,2.0,False
+128,5,2,5,2,5.0,5,5,2,5,5.0,joy,inferior,plentiful,unqualified,laugh,famous,clever,blame,sweet,accurate,52.0,Male,Republican,Higher-level graduate degree,5.0,3.0,True
+129,3,4,4,1,2.0,1,5,1,3,2.0,sorrow,superior,scarce,qualified,cry,unknown,stupid,praise,bitter,inaccurate,34.0,Male,Republican,Master's degree,5.0,4.0,False
+130,3,3,4,4,4.0,4,4,5,4,3.0,sorrow,superior,plentiful,unqualified,laugh,unknown,stupid,praise,sweet,inaccurate,25.0,Female,Democrat,Associate's/professional/vocational degree,3.0,3.0,False
+131,3,4,6,4,4.0,4,3,6,4,4.0,joy,inferior,scarce,qualified,cry,famous,clever,blame,bitter,accurate,27.0,Male,Democrat,Bachelor's degree,3.0,3.0,False
+132,3,5,3,2,4.0,4,5,4,5,3.0,sorrow,superior,plentiful,unqualified,laugh,unknown,stupid,blame,bitter,inaccurate,45.0,Female,Democrat,Bachelor's degree,3.0,4.0,True
+133,2,5,2,5,5.0,5,3,3,3,2.0,joy,inferior,scarce,qualified,cry,famous,clever,praise,sweet,accurate,22.0,Male,Democrat,Bachelor's degree,6.0,4.0,True
+134,4,6,6,2,3.0,6,6,2,3,6.0,sorrow,inferior,scarce,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,47.0,Female,Democrat,Some college (no degree),6.0,3.0,True
+135,5,2,2,4,4.0,3,5,3,2,2.0,sorrow,inferior,plentiful,qualified,laugh,famous,stupid,praise,sweet,inaccurate,28.0,Female,Democrat,Bachelor's degree,4.0,2.0,True
+136,4,2,5,3,1.0,4,6,1,1,6.0,joy,superior,scarce,unqualified,cry,unknown,clever,blame,bitter,accurate,21.0,Male,Republican,Some college (no degree),5.0,5.0,True
+137,2,2,5,2,5.0,2,3,2,5,2.0,joy,superior,scarce,qualified,cry,famous,clever,praise,bitter,accurate,39.0,Male,Republican,Master's degree,4.0,5.0,False
+138,1,3,4,3,5.0,2,2,2,2,5.0,sorrow,inferior,plentiful,unqualified,laugh,unknown,stupid,blame,sweet,inaccurate,26.0,Female,Republican,Bachelor's degree,6.0,6.0,True
+139,1,3,4,1,4.0,5,3,5,1,1.0,joy,superior,plentiful,qualified,cry,famous,clever,blame,sweet,accurate,35.0,Female,Democrat,Master's degree,7.0,5.0,True
+140,4,2,4,4,2.0,3,4,2,4,4.0,sorrow,inferior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,inaccurate,41.0,Female,Democrat,Associate's/professional/vocational degree,5.0,3.0,True
+141,1,6,2,6,2.0,2,2,6,6,6.0,sorrow,superior,scarce,unqualified,laugh,unknown,clever,blame,bitter,inaccurate,57.0,Male,Democrat,Some college (no degree),6.0,5.0,True
+142,5,3,1,4,1.0,3,6,2,4,4.0,joy,inferior,plentiful,qualified,cry,famous,stupid,praise,sweet,accurate,47.0,Male,Democrat,Master's degree,3.0,1.0,True
+143,5,6,1,3,5.0,3,2,1,5,2.0,sorrow,inferior,plentiful,qualified,cry,famous,clever,praise,bitter,accurate,47.0,Female,Democrat,Higher-level graduate degree,3.0,5.0,True
+144,4,2,1,5,2.0,3,5,2,4,5.0,joy,superior,scarce,unqualified,laugh,unknown,stupid,blame,sweet,inaccurate,54.0,Female,Democrat,Some college (no degree),4.0,5.0,True
+145,3,5,3,2,3.0,5,5,4,3,2.0,joy,inferior,plentiful,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,50.0,Female,Democrat,Master's degree,6.0,4.0,False
+146,2,4,2,3,6.0,4,3,4,6,1.0,sorrow,superior,scarce,unqualified,cry,famous,clever,blame,bitter,accurate,49.0,Male,Democrat,Bachelor's degree,3.0,7.0,False
+147,3,4,4,1,1.0,4,1,1,1,2.0,sorrow,superior,plentiful,unqualified,laugh,unknown,stupid,blame,bitter,inaccurate,44.0,Male,Republican,Associate's/professional/vocational degree,7.0,5.0,True
+148,3,4,3,2,4.0,2,3,3,5,3.0,joy,inferior,scarce,qualified,cry,famous,clever,praise,sweet,accurate,38.0,Male,Democrat,Master's degree,2.0,3.0,True
+149,3,5,3,5,3.0,3,4,5,2,2.0,sorrow,superior,plentiful,unqualified,laugh,famous,clever,praise,sweet,inaccurate,29.0,Female,Democrat,Associate's/professional/vocational degree,4.0,3.0,True
+150,1,6,3,1,6.0,2,6,6,6,1.0,joy,inferior,scarce,qualified,cry,unknown,stupid,blame,bitter,accurate,71.0,Female,Democrat,Bachelor's degree,6.0,6.0,True
+151,2,5,5,4,2.0,4,2,5,2,4.0,joy,superior,scarce,unqualified,laugh,unknown,clever,blame,sweet,inaccurate,27.0,Female,Democrat,Bachelor's degree,5.0,2.0,True
+152,3,1,4,4,1.0,1,1,1,1,4.0,sorrow,inferior,plentiful,qualified,cry,famous,stupid,praise,bitter,accurate,39.0,Male,Democrat,High school,1.0,5.0,True
+153,6,6,1,4,1.0,1,1,6,6,1.0,joy,superior,scarce,qualified,cry,unknown,stupid,praise,sweet,inaccurate,61.0,Male,Republican,Bachelor's degree,7.0,6.0,True
+154,2,2,2,2,2.0,2,2,2,2,2.0,sorrow,inferior,plentiful,unqualified,laugh,famous,clever,blame,bitter,accurate,20.0,Male,Democrat,High school,3.0,2.0,False
+155,2,5,4,1,6.0,5,1,6,1,,sorrow,inferior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,accurate,68.0,Male,Republican,Bachelor's degree,1.0,5.0,False
+156,3,2,1,5,2.0,3,4,3,5,5.0,joy,superior,plentiful,qualified,cry,famous,clever,blame,sweet,inaccurate,38.0,Female,Republican,Associate's/professional/vocational degree,3.0,3.0,True
+157,5,1,1,1,6.0,2,1,4,6,1.0,sorrow,superior,scarce,qualified,laugh,famous,stupid,praise,sweet,inaccurate,50.0,Male,Republican,Associate's/professional/vocational degree,7.0,5.0,True
+158,3,3,4,3,3.0,3,3,3,3,3.0,joy,inferior,plentiful,unqualified,cry,unknown,clever,blame,bitter,accurate,49.0,Female,Democrat,Associate's/professional/vocational degree,7.0,5.0,False
+159,2,5,5,5,3.0,3,4,4,4,4.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,55.0,Female,Democrat,Bachelor's degree,4.0,3.0,True
+160,5,1,6,6,1.0,5,6,6,1,2.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,40.0,Female,Democrat,Some college (no degree),7.0,3.0,True
+161,3,5,5,2,2.0,4,3,3,4,3.0,joy,inferior,plentiful,qualified,cry,famous,clever,blame,sweet,accurate,18.0,Male,Democrat,Some college (no degree),3.0,5.0,True
+162,3,4,3,3,3.0,5,4,2,5,5.0,sorrow,superior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,inaccurate,24.0,Male,Democrat,Bachelor's degree,2.0,6.0,True
+163,6,1,1,1,6.0,6,6,6,6,1.0,sorrow,superior,plentiful,qualified,cry,unknown,stupid,blame,bitter,accurate,45.0,Female,Democrat,Associate's/professional/vocational degree,6.0,5.0,True
+164,3,5,3,4,3.0,3,2,3,4,4.0,joy,inferior,scarce,unqualified,laugh,famous,clever,praise,sweet,inaccurate,34.0,Male,Democrat,Some college (no degree),4.0,6.0,True
+165,1,5,2,2,5.0,4,6,5,4,1.0,joy,superior,plentiful,qualified,cry,unknown,stupid,blame,bitter,accurate,36.0,Female,Democrat,Associate's/professional/vocational degree,7.0,4.0,False
+166,2,2,2,2,2.0,4,4,4,4,3.0,sorrow,inferior,scarce,unqualified,laugh,famous,clever,praise,sweet,inaccurate,30.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+167,3,4,3,3,4.0,3,2,3,5,3.0,sorrow,inferior,scarce,qualified,cry,unknown,clever,praise,bitter,accurate,30.0,Male,Democrat,Some college (no degree),5.0,3.0,True
+168,5,6,6,3,6.0,4,5,3,3,2.0,joy,superior,plentiful,unqualified,laugh,famous,stupid,blame,sweet,inaccurate,40.0,Male,Republican,High school,5.0,4.0,True
+169,1,5,2,5,2.0,3,5,5,4,5.0,sorrow,inferior,scarce,qualified,laugh,unknown,clever,praise,sweet,accurate,44.0,Male,Democrat,Bachelor's degree,5.0,5.0,True
+170,2,4,4,4,5.0,4,4,5,4,2.0,joy,superior,plentiful,unqualified,cry,famous,stupid,blame,bitter,inaccurate,38.0,Female,Democrat,Some college (no degree),,6.0,True
+171,1,6,4,2,3.0,4,6,2,6,1.0,joy,superior,scarce,unqualified,laugh,famous,stupid,praise,bitter,accurate,49.0,Female,Democrat,Bachelor's degree,7.0,6.0,True
+172,4,6,4,1,6.0,1,6,6,6,1.0,sorrow,inferior,plentiful,qualified,cry,unknown,clever,blame,sweet,inaccurate,30.0,Male,Democrat,Some college (no degree),7.0,6.0,True
+173,2,1,1,5,2.0,2,1,5,1,6.0,sorrow,inferior,plentiful,qualified,laugh,famous,stupid,praise,bitter,accurate,70.0,Female,Republican,Associate's/professional/vocational degree,6.0,6.0,True
+174,2,2,5,6,6.0,2,2,6,2,6.0,joy,superior,scarce,unqualified,cry,unknown,clever,blame,sweet,inaccurate,29.0,Male,Democrat,High school,2.0,4.0,True
+175,2,4,5,4,5.0,4,2,2,4,2.0,joy,inferior,plentiful,unqualified,cry,unknown,stupid,blame,bitter,accurate,49.0,Female,Republican,Bachelor's degree,4.0,5.0,False
+176,5,3,2,6,5.0,3,5,5,4,3.0,sorrow,superior,scarce,qualified,laugh,famous,clever,praise,sweet,inaccurate,39.0,Female,Republican,Associate's/professional/vocational degree,6.0,5.0,True
+177,5,5,5,5,3.0,3,6,3,5,3.0,joy,inferior,plentiful,unqualified,cry,famous,stupid,praise,bitter,inaccurate,20.0,Female,Democrat,Some college (no degree),5.0,3.0,True
+178,2,2,3,5,4.0,5,1,1,2,5.0,joy,inferior,plentiful,qualified,cry,unknown,stupid,blame,sweet,inaccurate,32.0,Male,Republican,Bachelor's degree,5.0,3.0,True
+179,2,5,3,2,5.0,2,2,5,5,3.0,sorrow,superior,scarce,qualified,laugh,unknown,clever,blame,sweet,accurate,42.0,Female,Democrat,Bachelor's degree,6.0,4.0,True
+180,2,5,5,3,5.0,4,5,2,6,3.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,praise,sweet,accurate,50.0,Female,Republican,Associate's/professional/vocational degree,5.0,4.0,True
+181,3,3,5,5,2.0,5,5,5,5,2.0,sorrow,superior,scarce,unqualified,laugh,famous,clever,praise,bitter,accurate,32.0,Female,Democrat,High school,6.0,4.0,True
+182,1,4,1,1,6.0,5,6,6,6,1.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,blame,bitter,inaccurate,25.0,Male,Democrat,Higher-level graduate degree,6.0,4.0,True
+183,1,5,4,2,5.0,2,1,5,5,4.0,joy,superior,scarce,qualified,laugh,unknown,clever,blame,sweet,inaccurate,25.0,Female,Democrat,Master's degree,4.0,2.0,False
+184,5,3,4,3,5.0,4,3,4,2,5.0,sorrow,inferior,plentiful,unqualified,cry,famous,stupid,praise,bitter,accurate,65.0,Male,Republican,Bachelor's degree,4.0,3.0,True
+185,5,2,3,5,5.0,3,4,1,4,5.0,joy,inferior,scarce,unqualified,laugh,unknown,clever,blame,sweet,inaccurate,41.0,Female,Republican,Master's degree,3.0,6.0,True
+186,2,3,4,5,3.0,5,5,3,5,2.0,sorrow,superior,plentiful,qualified,cry,famous,stupid,praise,bitter,accurate,38.0,Male,Democrat,Bachelor's degree,4.0,5.0,True
+187,2,3,4,4,3.0,2,3,4,2,3.0,joy,inferior,scarce,unqualified,cry,famous,stupid,praise,sweet,accurate,38.0,Male,Republican,Some college (no degree),3.0,4.0,True
+188,4,6,2,3,4.0,6,6,2,6,1.0,sorrow,superior,plentiful,qualified,laugh,unknown,clever,blame,bitter,inaccurate,24.0,Male,Democrat,Associate's/professional/vocational degree,7.0,5.0,False
+189,4,4,3,1,5.0,5,4,4,3,2.0,sorrow,superior,plentiful,unqualified,cry,famous,clever,praise,bitter,accurate,34.0,Male,Democrat,Bachelor's degree,4.0,4.0,True
+190,3,4,3,5,1.0,2,1,5,4,3.0,joy,inferior,scarce,qualified,laugh,unknown,stupid,blame,sweet,inaccurate,61.0,Male,Republican,Associate's/professional/vocational degree,4.0,5.0,True
+191,1,5,3,2,2.0,3,6,6,5,2.0,joy,superior,plentiful,unqualified,cry,famous,stupid,blame,bitter,accurate,30.0,Male,Democrat,Bachelor's degree,6.0,6.0,True
+192,3,5,3,3,4.0,5,2,2,4,4.0,sorrow,inferior,plentiful,qualified,laugh,unknown,clever,praise,bitter,inaccurate,31.0,Female,Democrat,Bachelor's degree,6.0,5.0,True
+193,3,1,2,2,2.0,2,5,2,3,5.0,sorrow,inferior,scarce,qualified,laugh,unknown,clever,praise,sweet,inaccurate,36.0,Female,Republican,Bachelor's degree,7.0,4.0,True
+194,3,4,3,6,3.0,3,6,6,3,3.0,joy,superior,scarce,unqualified,cry,famous,stupid,blame,sweet,accurate,70.0,Male,Democrat,Associate's/professional/vocational degree,7.0,5.0,True
+195,4,3,5,4,3.0,3,6,3,3,4.0,sorrow,inferior,scarce,qualified,cry,unknown,stupid,blame,bitter,inaccurate,45.0,Male,Republican,Some college (no degree),2.0,1.0,True
+196,1,6,5,5,4.0,5,2,2,4,2.0,joy,superior,plentiful,unqualified,laugh,famous,clever,praise,sweet,accurate,34.0,Female,Democrat,Master's degree,7.0,6.0,True
+197,3,4,4,4,5.0,3,4,3,4,2.0,joy,inferior,scarce,unqualified,laugh,unknown,stupid,praise,bitter,accurate,,Female,Democrat,Bachelor's degree,4.0,4.0,True
+198,2,5,6,1,3.0,6,4,3,2,2.0,sorrow,superior,plentiful,qualified,cry,famous,clever,blame,sweet,inaccurate,32.0,Female,Republican,Associate's/professional/vocational degree,3.0,4.0,True
+199,3,3,3,3,4.0,3,4,3,4,4.0,sorrow,superior,scarce,unqualified,laugh,famous,clever,blame,sweet,accurate,47.0,Female,Republican,Bachelor's degree,5.0,3.0,True
+200,2,4,4,3,4.0,3,5,3,2,3.0,joy,inferior,plentiful,qualified,cry,unknown,stupid,praise,bitter,inaccurate,38.0,Female,Republican,Associate's/professional/vocational degree,3.0,2.0,True
+201,1,3,5,3,1.0,3,1,5,1,1.0,joy,superior,scarce,qualified,cry,unknown,stupid,blame,bitter,inaccurate,27.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+202,3,3,6,3,5.0,4,2,4,6,5.0,sorrow,inferior,plentiful,unqualified,laugh,famous,clever,praise,sweet,accurate,28.0,Male,Republican,Some college (no degree),4.0,5.0,False
+203,2,2,1,6,5.0,5,6,1,1,2.0,sorrow,superior,plentiful,unqualified,cry,unknown,stupid,praise,sweet,inaccurate,30.0,Male,Republican,Master's degree,3.0,1.0,False
+204,4,6,4,6,6.0,4,5,1,1,6.0,joy,inferior,scarce,qualified,laugh,famous,clever,blame,bitter,accurate,35.0,Male,Republican,Some college (no degree),5.0,5.0,False
+205,1,1,1,6,1.0,1,1,1,1,6.0,sorrow,inferior,plentiful,unqualified,cry,unknown,stupid,blame,bitter,accurate,53.0,Female,Republican,Bachelor's degree,7.0,6.0,True
+206,5,5,5,6,2.0,1,3,6,4,6.0,joy,superior,scarce,qualified,laugh,famous,clever,praise,sweet,inaccurate,37.0,Female,Republican,Associate's/professional/vocational degree,7.0,6.0,True
+207,5,2,3,6,5.0,4,5,2,2,5.0,joy,inferior,scarce,unqualified,cry,famous,clever,blame,bitter,accurate,25.0,Male,Republican,Some college (no degree),7.0,7.0,True
+208,3,3,3,4,3.0,4,2,5,4,5.0,sorrow,superior,plentiful,qualified,laugh,unknown,stupid,praise,sweet,inaccurate,43.0,Female,Republican,Bachelor's degree,6.0,2.0,True
+209,5,4,4,5,3.0,3,3,4,2,5.0,sorrow,inferior,plentiful,qualified,cry,unknown,stupid,praise,bitter,inaccurate,28.0,Male,Republican,Bachelor's degree,5.0,4.0,True
+210,3,5,2,4,4.0,5,3,2,2,5.0,joy,superior,scarce,unqualified,laugh,famous,clever,blame,sweet,accurate,42.0,Female,Republican,Master's degree,3.0,2.0,True
+211,3,4,3,4,4.0,4,4,4,3,3.0,sorrow,superior,scarce,unqualified,laugh,unknown,clever,praise,bitter,inaccurate,51.0,Female,Republican,Master's degree,7.0,3.0,True
+212,4,4,2,3,1.0,1,2,1,4,5.0,joy,inferior,plentiful,qualified,cry,famous,stupid,blame,sweet,accurate,65.0,Female,Republican,Bachelor's degree,3.0,2.0,True
+213,2,1,4,3,4.0,3,5,4,3,1.0,sorrow,inferior,plentiful,unqualified,laugh,unknown,stupid,praise,sweet,accurate,26.0,Male,Republican,Some high school (no degree),7.0,6.0,False
+214,2,5,2,4,2.0,2,2,2,5,2.0,joy,superior,scarce,qualified,cry,famous,clever,blame,bitter,inaccurate,35.0,Female,Republican,Master's degree,2.0,2.0,True
+215,1,5,1,5,1.0,1,1,1,1,2.0,joy,inferior,plentiful,unqualified,cry,unknown,stupid,blame,bitter,accurate,67.0,Female,Republican,Master's degree,6.0,5.0,True
+216,2,5,5,3,3.0,5,4,2,2,5.0,sorrow,superior,scarce,qualified,laugh,famous,clever,praise,sweet,inaccurate,31.0,Male,Republican,Higher-level graduate degree,4.0,3.0,True
+217,2,6,2,2,5.0,4,5,1,3,4.0,sorrow,inferior,plentiful,qualified,cry,unknown,stupid,blame,sweet,accurate,33.0,Female,Republican,Bachelor's degree,5.0,1.0,True
+218,6,5,4,4,5.0,3,2,6,2,3.0,joy,superior,scarce,unqualified,laugh,famous,clever,praise,bitter,inaccurate,29.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+219,2,2,2,6,4.0,2,5,5,2,6.0,joy,superior,plentiful,unqualified,cry,unknown,clever,blame,bitter,inaccurate,66.0,Female,Republican,Bachelor's degree,7.0,5.0,True
+220,3,3,3,4,4.0,4,4,4,2,3.0,sorrow,inferior,scarce,qualified,laugh,famous,stupid,praise,sweet,accurate,50.0,Female,Republican,Bachelor's degree,3.0,3.0,True
+221,3,2,3,4,2.0,4,4,5,3,2.0,joy,superior,scarce,qualified,laugh,unknown,clever,praise,sweet,inaccurate,35.0,Female,Republican,High school,4.0,3.0,True
+222,5,5,2,5,2.0,2,1,3,2,5.0,sorrow,inferior,plentiful,unqualified,cry,famous,stupid,blame,bitter,accurate,43.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+223,1,3,2,4,4.0,4,5,2,3,5.0,sorrow,superior,plentiful,unqualified,laugh,famous,clever,blame,sweet,inaccurate,41.0,Female,Republican,Bachelor's degree,6.0,5.0,True
+224,2,5,4,4,5.0,4,5,1,5,6.0,sorrow,superior,plentiful,unqualified,cry,famous,clever,praise,bitter,inaccurate,29.0,Male,Republican,Bachelor's degree,7.0,5.0,False
+225,4,2,2,3,4.0,1,1,4,4,5.0,joy,inferior,scarce,qualified,laugh,unknown,stupid,blame,sweet,accurate,29.0,Male,Republican,Bachelor's degree,7.0,7.0,True
+226,3,4,4,4,3.0,3,5,4,4,2.0,joy,superior,scarce,qualified,laugh,unknown,stupid,praise,bitter,inaccurate,29.0,Male,Republican,Bachelor's degree,2.0,5.0,True
+227,2,2,2,2,3.0,4,4,2,3,4.0,sorrow,inferior,plentiful,unqualified,cry,famous,clever,blame,sweet,accurate,77.0,Male,Republican,Some college (no degree),6.0,4.0,True
+228,6,1,6,6,6.0,2,6,6,3,6.0,joy,inferior,plentiful,qualified,laugh,famous,clever,praise,bitter,accurate,48.0,Female,Republican,Bachelor's degree,7.0,7.0,True
+229,4,5,5,3,2.0,3,3,5,2,4.0,sorrow,superior,scarce,unqualified,cry,unknown,stupid,blame,sweet,inaccurate,41.0,Male,Republican,Bachelor's degree,2.0,2.0,True
+230,5,5,5,2,2.0,2,5,4,2,5.0,sorrow,inferior,scarce,unqualified,laugh,unknown,clever,blame,sweet,accurate,57.0,Female,Republican,Bachelor's degree,4.0,4.0,False
+231,4,6,3,5,5.0,1,5,6,2,2.0,joy,superior,plentiful,qualified,cry,famous,stupid,praise,bitter,inaccurate,40.0,Female,Republican,Bachelor's degree,7.0,6.0,True
+232,5,4,2,5,2.0,2,2,5,5,2.0,joy,superior,plentiful,qualified,laugh,unknown,clever,praise,sweet,inaccurate,54.0,Female,Republican,High school,7.0,6.0,True
+233,6,6,6,5,5.0,6,6,5,6,5.0,sorrow,inferior,scarce,unqualified,cry,famous,stupid,blame,bitter,accurate,32.0,Male,Republican,Master's degree,7.0,6.0,False
+234,3,5,3,2,5.0,5,5,3,5,3.0,joy,superior,plentiful,unqualified,laugh,unknown,stupid,blame,bitter,accurate,36.0,Female,Republican,Associate's/professional/vocational degree,3.0,3.0,True
+235,2,5,3,6,2.0,4,5,5,4,2.0,sorrow,inferior,scarce,qualified,cry,famous,clever,praise,sweet,inaccurate,34.0,Female,Republican,Some college (no degree),5.0,4.0,True
+236,5,1,6,1,,6,6,2,3,1.0,joy,inferior,scarce,unqualified,laugh,unknown,clever,blame,bitter,inaccurate,35.0,Female,Republican,Bachelor's degree,7.0,4.0,False
+237,3,3,4,4,3.0,3,3,4,3,5.0,sorrow,superior,plentiful,qualified,cry,famous,stupid,praise,sweet,accurate,59.0,Female,Republican,Bachelor's degree,4.0,1.0,True
+238,1,6,2,1,5.0,6,1,6,1,1.0,sorrow,superior,scarce,unqualified,cry,famous,stupid,praise,bitter,inaccurate,37.0,Female,Republican,Bachelor's degree,6.0,4.0,True
+239,3,4,3,4,3.0,4,4,2,3,4.0,joy,inferior,plentiful,qualified,laugh,unknown,clever,blame,sweet,accurate,62.0,Female,Republican,Master's degree,6.0,5.0,True
+240,2,1,5,6,5.0,1,2,1,5,5.0,sorrow,inferior,plentiful,unqualified,laugh,famous,stupid,blame,bitter,accurate,39.0,Male,Republican,Higher-level graduate degree,6.0,5.0,True
+241,1,2,4,5,2.0,3,4,1,1,4.0,sorrow,inferior,plentiful,qualified,laugh,famous,clever,blame,sweet,accurate,36.0,Male,Republican,Some college (no degree),6.0,5.0,True
+242,4,4,4,5,2.0,3,4,3,3,4.0,joy,superior,scarce,qualified,cry,unknown,clever,praise,sweet,inaccurate,38.0,Female,Republican,Some college (no degree),3.0,3.0,True
+243,5,4,4,2,3.0,3,2,4,2,4.0,joy,superior,scarce,unqualified,cry,unknown,stupid,praise,bitter,inaccurate,43.0,Female,Republican,Master's degree,5.0,5.0,True
+244,2,2,2,4,4.0,4,4,3,3,5.0,sorrow,inferior,scarce,qualified,laugh,unknown,clever,blame,sweet,inaccurate,31.0,Female,Republican,Some college (no degree),4.0,5.0,True
+245,5,2,3,5,1.0,1,1,1,5,6.0,joy,superior,plentiful,unqualified,cry,famous,stupid,praise,bitter,accurate,43.0,Male,Republican,Bachelor's degree,5.0,5.0,True
+246,2,4,3,4,3.0,2,4,5,2,5.0,sorrow,inferior,plentiful,unqualified,cry,famous,clever,blame,sweet,inaccurate,44.0,Female,Republican,Bachelor's degree,5.0,4.0,True
+247,5,2,2,5,3.0,2,2,5,4,5.0,joy,superior,scarce,qualified,laugh,unknown,stupid,praise,bitter,accurate,77.0,Male,Republican,Associate's/professional/vocational degree,6.0,5.0,True

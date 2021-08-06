@@ -5,13 +5,71 @@ from scipy import stats
 import sys
 mturk = False
 mturk = True
-if not mturk:
-    from pyspan.plurals.preprocess import *
-    ixs = np.arange(100, 200)
-else:
-    from pyspan.plurals.preprocess_mturk import *
-    ixs = (words.index + 100).values
+from pyspan.config import *
 from pyspan.ratings_task.analysis import SparseLR
+
+def load_participant_data(mturk):
+    path = paths["package_dir"] + "experiments/valence/study-3"
+    path += "'"*(not mturk)+"/"
+    
+    vars = dict()
+    vars["words"] = pd.read_csv(path + "stimuli.csv").set_index("Unnamed: 0")
+    vars["ixs"] = (vars["words"].index + 100).values
+    vars["pos_lg"] = vars["words"].loc[vars["words"].category=="positive"].large
+    vars["pos_sm"] = vars["words"].loc[vars["words"].category=="positive"].small
+    vars["neg_lg"] = vars["words"].loc[vars["words"].category=="negative"].large
+    vars["neg_sm"] = vars["words"].loc[vars["words"].category=="negative"].small
+    vars["neu_lg"] = vars["words"].loc[vars["words"].category=="neutral"].large
+    vars["neu_sm"] = vars["words"].loc[vars["words"].category=="neutral"].small
+    
+    vars["valence"] = pd.read_csv(path + "valence.csv").rename(columns=dict(zip(map(str,
+                                                                                    vars["ixs"]
+                                                                                   ), vars["ixs"]
+                                                                               ))).set_index("ID")
+    vars["cl"] = pd.read_csv(path + "cl.csv").rename(columns=dict(zip(map(str, vars["ixs"]),
+                                                                      vars["ixs"]
+                                                                     ))).set_index("ID")
+    vars["politics"] = pd.read_csv(path + "politics.csv").rename(columns=dict(zip(map(str,
+                                                                                  vars["ixs"]
+                                                                                 ), vars["ixs"]
+                                                                             ))).set_index("ID")
+    vars["demographics"] = pd.read_csv(path + "demographics.csv").set_index("ID")
+    
+    if not mturk:
+        vars["gender"] = pd.read_csv(path + "gender.csv").rename(columns=dict(zip(map(str,
+                                                                                  vars["ixs"]
+                                                                                 ), vars["ixs"]
+                                                                             ))).set_index("ID")
+        
+    return vars
+    
+locals().update(load_participant_data(mturk))
+
+def consensus_level(choices, words_ix, conditions, condition_labels):
+    n = len(choices[choices != "-99"])
+    npos = len(choices[(choices == words.loc[words_ix]["large"]) &
+                       (conditions == condition_labels[0])])
+    npos += len(choices[(choices == words.loc[words_ix]["small"]) &
+                        (conditions == condition_labels[1])])
+    return npos / n
+    
+# Get items for which there was general agreement about relative perceptions
+# of the pluralized vs. singular forms
+def agreement_items(df, attrs, threshold):
+    attr1, attr2 = [], []
+    condition = df["Condition"].values
+    for i in words.index:
+        choices = df[i + 100]
+        consensus_l = consensus_level(choices, i, condition, attrs)
+        if consensus_l > threshold:
+            attr1.append(words.loc[i]["large"])
+            attr2.append(words.loc[i]["small"])
+        if consensus_l < 1 - threshold:
+            attr2.append(words.loc[i]["large"])
+            attr1.append(words.loc[i]["small"])
+
+    assert len(attr1) == len(attr2)
+    return attr1, attr2
 
 # The t-tests are run on per-subject proportions, so collapse data into a
 # proportion
@@ -182,111 +240,9 @@ def get_prop(arr, set1, set2):
     except ZeroDivisionError:
         return np.nan
 
-# Infrastructure to generate bootstrapped p-values
-def bootstrap_samples(summary_df, dat, lab, threshold = 60, within = False):
-    ixs = [10, 20, 30] if mturk else [25, 50, 75]
-    nwords = 40 if mturk else 100
-    if lab == "valence":
-        n_pos_missing = np.apply_along_axis(lambda a: len(a[a == "-99"]), 1,
-                                            dat[:,:ixs[0]])
-        n_pos = (nwords/4 - n_pos_missing).astype("int32")
-        n_neg_missing = np.apply_along_axis(lambda a: len(a[a == "-99"]), 1,
-                                            dat[:,ixs[0]:ixs[1]])
-        n_neg = (nwords/4 - n_neg_missing).astype("int32")
-        n_neu_missing = np.apply_along_axis(lambda a: len(a[a == "-99"]), 1,
-                                            dat[:,ixs[1]:ixs[2]])
-        n_neu = (nwords/4 - n_neu_missing).astype("int32")
-    elif lab == "cl":
-        n_missing = np.apply_along_axis(lambda a: len(a[a == "-99"]), 1, dat)
-        n = nwords - n_missing
-    elif lab in ("politics", "gender"):
-        if within:
-            n_missing = np.apply_along_axis(lambda a: len(a[~np.isnan(a)]), 1, dat)
-            n = nwords - n_missing
-        else:
-            assert threshold in (60, 80)
-            l = positive60 if threshold == 60 else positive80
-            ixs_ = np.arange(len(words))[(np.in1d(words.small, l)) |
-                                         (np.in1d(words.large, l))]
-            n_missing = np.apply_along_axis(lambda a: len(a[a == "-99"]), 1,
-                                            dat[:,ixs_])
-            n = len(l) - n_missing
-
-    for i in range(1000):
-        dat_ = summary_df.copy()
-        if lab == "valence":
-            dat_["pos_lg"] = stats.binom.rvs(n = n_pos, p = .5) / n_pos
-            dat_["neg_lg"] = stats.binom.rvs(n = n_neg, p = .5) / n_neg
-            dat_["neu_lg"] = stats.binom.rvs(n = n_neu, p = .5) / n_neu
-        elif lab == "cl":
-            dat_["ppl"] = stats.binom.rvs(n = n, p = .5) / n
-        elif lab in ("politics", "gender"):
-            if within:
-                dat_["p"] = stats.binom.rvs(n = n, p = .5) / n
-            else:
-                dat_["ppos"] = stats.binom.rvs(n = n, p = .5) / n
-
-        flab = lab
-        if lab in ("politics", "gender"):
-            flab += "_ws" if within else str(threshold)
-        with open("bts_samples{}/{}{}".format("_mturk" if mturk else "", flab, i),
-                  "wb") as wfh:
-            pickle.dump(dat_, wfh)
-
-def _calculate_difference_in_means(i, col1, col2, cond1, cond2, flab, ident1,
-                                   ident2, lab, recode):
-    df = pickle.load(open("bts_samples{}/{}{}".format("_mturk" if mturk
-                                                      else "", flab, i)))
-    if recode:
-        df1 = df.loc[df.Condition == recode[0]]
-        df2 = df.loc[df.Condition == recode[1]]
-        df2["pos_lg"] = 1 - df2["pos_lg"]
-        df2["neg_lg"] = 1 - df2["neg_lg"]
-        df2["neu_lg"] = 1 - df2["neu_lg"]
-        df = pd.concat([ df1, df2 ])
-    cols = ["Condition"]
-    if lab in ("politics", "gender"):
-        cols.append("ident")
-    a = df[cols + [col1]]
-    b = df[cols + [col2]]
-    if not isinstance(cond1, type(None)):
-        a = a.loc[a.Condition == cond1]
-    if not isinstance(cond2, type(None)):
-        b = b.loc[b.Condition == cond2]
-    if not isinstance(ident1, type(None)):
-        a = a.loc[a.ident == ident1]
-    if not isinstance(ident2, type(None)):
-        b = b.loc[b.ident == ident2]
-    if lab in ("politics", "gender"):
-        if ( isinstance(cond1, type(None)) and isinstance(cond2, type(None))
-             and isinstance(ident1, type(None)) and
-             isinstance(ident2, type(None)) ):
-             a = a.loc[a.Condition == a.ident]
-             b = b.loc[b.Condition != b.ident]
-
-    a = a[col1].values
-    b = b[col2].values
-    return np.mean(a) - np.mean(b)
-
-_calculate_difference_in_means = np.vectorize(_calculate_difference_in_means,
-                                              excluded = range(1,10))
-
-def calculate_p_value(delta, lab, cond1, col1, cond2, col2, ident1 = None,
-                      ident2 = None, alternative = "smaller", recode = False,
-                      threshold = 60, within = False):
-    flab = lab
-    if lab in ("politics", "gender"):
-        flab += "_ws" if within else str(threshold)
-    diff = _calculate_difference_in_means(range(1000), col1, col2, cond1, cond2,
-                                          flab, ident1, ident2, lab, recode)
-    if alternative == "smaller":
-        return len([ d for d in diff if d < delta ]) / 1000
-    elif alternative == "larger":
-        return len([ d for d in diff if d > delta ]) / 1000
-
 def demographic_info(df):
     df_ = df.join(demographics[["age","gender"]], how = "left")
-    df_ = df_.loc[~df_.index.duplicated(keep = False)]
+    assert len(df_.loc[df_.index.duplicated()]) == 0
     df_.age = pd.to_numeric(df_.age)
     print "Age: {} (SE = {})".format(np.mean(df_.age), stats.sem(df_.age))
     df_gp = df_.groupby("gender").count()

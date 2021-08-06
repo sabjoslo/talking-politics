@@ -6,7 +6,7 @@ Sloman SJ, Oppenheimer DM, DeDeo S (2021) Can we detect conditioned variation in
 
 and
 
-Sloman, S.J., Oppenheimer, D., and DeDeo, S. (2020). One fee, two fees; red fee, blue fee: People use the valence of others' speech in social relational judgments. *Under review.*
+Sloman, S.J., Oppenheimer, D.M., and DeDeo, S. (2021). One fee, two fees; red fee, blue fee: People use the valence of others' speech in social relational judgments. *Under review.*
 
 If you have questions, or notice that anything needed to replicate the analysis is missing, please contact Sabina Sloman at ssloman@andrew.cmu.edu.
 
