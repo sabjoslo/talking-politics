@@ -79,7 +79,7 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycryptodome==3.9.7
 pygam==0.8.0
-Pygments==2.5.2
+Pygments==2.7.4
 pyparsing==2.4.6
 pyrsistent==0.15.7
 -e git+https://github.com/sabjoslo/talking-politics.git@b707d3272467270efa4c7747d9eb4fffd22e76ba#egg=pyspan
